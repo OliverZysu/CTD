@@ -1,0 +1,162 @@
+{
+  "root": "/mnt/user-ssd/zengboyi/ctd",
+  "note": "Source files are referenced in place, not republished. No original files modified.",
+  "files": [
+    {
+      "alias": "E4",
+      "relative_path": "build_weekly_progress_0809.py",
+      "bytes": 15119,
+      "sha256": "92a8470b835a1de5f35e4813f3feee67ba9351dc3bd38482f960ce2047abefef"
+    },
+    {
+      "alias": "E2",
+      "relative_path": "ctd_ppt_data/ctd_ppt_data/CTD/CTD/graphsage_top10_wrong_predictions.csv",
+      "bytes": 544,
+      "sha256": "9016cffedb0f27c21b4e59a0bc5ed7058d843b37fc356bcd137f5d2b147bf154"
+    },
+    {
+      "alias": "E1",
+      "relative_path": "ctd_ppt_data/ctd_ppt_data/CTD/CTD/graphsage_wrong_predictions_all.csv",
+      "bytes": 4075874,
+      "sha256": "56f8adbe89388cb2b277665e6189be433d62f8f5e38f7cd65bbbd1fb512f0efd"
+    },
+    {
+      "alias": null,
+      "relative_path": "ctd_ppt_data/ctd_ppt_data/CTD/data_analysis.py",
+      "bytes": 7827,
+      "sha256": "481e1af44bd9f0edac84a93ef442f857e9d1c0d4a4148d136f09d286db54d46a"
+    },
+    {
+      "alias": null,
+      "relative_path": "ctd_ppt_data/ctd_ppt_data/CTD/data_utils.py",
+      "bytes": 13183,
+      "sha256": "6dee19f173c252601d18ce919e331dd1a116805408587ffe01964350ef952370"
+    },
+    {
+      "alias": null,
+      "relative_path": "ctd_ppt_data/ctd_ppt_data/CTD/degree_logreg_baseline.py",
+      "bytes": 3687,
+      "sha256": "8c6988bafbc7d079d530b5836854f2861a84100a4635bebf481e7305b05e6fa6"
+    },
+    {
+      "alias": null,
+      "relative_path": "ctd_ppt_data/ctd_ppt_data/CTD/gat.py",
+      "bytes": 6066,
+      "sha256": "f81ab418f89f8f6e5fff6ce146080afc34cebc101930a3e8f80967980b0b0afc"
+    },
+    {
+      "alias": null,
+      "relative_path": "ctd_ppt_data/ctd_ppt_data/CTD/gat_final.py",
+      "bytes": 13406,
+      "sha256": "a6024d00d2a75052b887704b15d4ccaa4107dab8972592f4e59e19cb31c47598"
+    },
+    {
+      "alias": null,
+      "relative_path": "ctd_ppt_data/ctd_ppt_data/CTD/gat_improved.py",
+      "bytes": 12143,
+      "sha256": "bb0982db211add956c11865e832b682cf223ac95ac989628b07ae806956df9f3"
+    },
+    {
+      "alias": null,
+      "relative_path": "ctd_ppt_data/ctd_ppt_data/CTD/gat_improved_training.log",
+      "bytes": 212,
+      "sha256": "af86ee46be8763a7f750c46b117ce7d3e73989bc95012174bebdbce1eca55601"
+    },
+    {
+      "alias": null,
+      "relative_path": "ctd_ppt_data/ctd_ppt_data/CTD/gat_optimized.py",
+      "bytes": 8130,
+      "sha256": "7513de8acd8aa607408e96e79d498ea9289b71a16a48f16a432604d62ca5db6b"
+    },
+    {
+      "alias": null,
+      "relative_path": "ctd_ppt_data/ctd_ppt_data/CTD/gat_optimized_training.log",
+      "bytes": 213,
+      "sha256": "262311b02e20f4d9cac68806fd72fc59fc76eb6e2fe1fbb19cb25badb58e479a"
+    },
+    {
+      "alias": null,
+      "relative_path": "ctd_ppt_data/ctd_ppt_data/CTD/gcn.py",
+      "bytes": 17239,
+      "sha256": "076ab0b4abc83927d8367aba20c93a08bfdea546715d497f58e1f2c3b2e1cca0"
+    },
+    {
+      "alias": null,
+      "relative_path": "ctd_ppt_data/ctd_ppt_data/CTD/graphsage.py",
+      "bytes": 12085,
+      "sha256": "70e4521272f4d2a55f28264fbaf34b825fd2dcbe0f8020b800b6bc421341cb63"
+    },
+    {
+      "alias": null,
+      "relative_path": "ctd_ppt_data/ctd_ppt_data/CTD/lightgcn.py",
+      "bytes": 5574,
+      "sha256": "4451ac91c00c0f5a99433db4286de3cbf6979969acc29adca7bf49246cc178ea"
+    },
+    {
+      "alias": null,
+      "relative_path": "ctd_ppt_data/ctd_ppt_data/CTD/mlp.py",
+      "bytes": 16019,
+      "sha256": "1a14b799ae9a0731ce4991f30f787a4c7b5f5df4369e052f07b7e75b5176008f"
+    },
+    {
+      "alias": null,
+      "relative_path": "ctd_ppt_data/ctd_ppt_data/CTD/node2vec_baseline.py",
+      "bytes": 6915,
+      "sha256": "c97182964c712f1d1e4adb8f17a52f6fd4e1082437b1f57b7e89a4a355c5c967"
+    },
+    {
+      "alias": "E3",
+      "relative_path": "ctd_ppt_data/ctd_ppt_data/CTD_weekly_0809/mechanism_support_0809.png",
+      "bytes": 50121,
+      "sha256": "aa2a592147bc606946feb3d47b0a1366846e834a00af7087a687fd3b88636d66"
+    },
+    {
+      "alias": null,
+      "relative_path": "ctd_ppt_data/ctd_ppt_data/CTD_周进展_0719.pptx",
+      "bytes": 55987,
+      "sha256": "22c9532946a31ba955447820ec2a02618f5cc2cd8600060862ba1ff7ad427d7a"
+    },
+    {
+      "alias": "P3",
+      "relative_path": "ctd_ppt_data/ctd_ppt_data/CTD_周进展_0809.pptx",
+      "bytes": 98550,
+      "sha256": "156d1b4deccd96a751d7963021ce8fc21189e1427a29d7eed1c0ce9057920360"
+    },
+    {
+      "alias": "P2",
+      "relative_path": "ctd_ppt_data/ctd_ppt_data/DDE组会文档20251215_环境.pptx",
+      "bytes": 165446,
+      "sha256": "0bba7b8691d07f9a7a5f9d90e2f6dbb8f9dbccf7d9e37e85b64e0c58751f1a94"
+    },
+    {
+      "alias": null,
+      "relative_path": "ctd_ppt_data/ctd_ppt_data/DDE组会文档20260105_环境.pptx",
+      "bytes": 1696069,
+      "sha256": "6ca00fe662edd27de082d09db5a0a4f47b4815ba29f597d33cc6153c25caff71"
+    },
+    {
+      "alias": "P4",
+      "relative_path": "ctd_ppt_data/ctd_ppt_data/DDE组会文档20260125_环境.pptx",
+      "bytes": 2358121,
+      "sha256": "d99d5104ccd5e903a0d91dd7bd665524582c0b6d3741ba3e84a2dc2e3cb33ed6"
+    },
+    {
+      "alias": "P5",
+      "relative_path": "ctd_ppt_data/ctd_ppt_data/DDE组会文档20260202_环境.pptx",
+      "bytes": 3469100,
+      "sha256": "392f339ebd49a89ebc3f7927a918d2dfed9fffab8d73638aeede9396857446e4"
+    },
+    {
+      "alias": null,
+      "relative_path": "ctd_ppt_data/ctd_ppt_data/环境污染物需求/环境污染物需求.md",
+      "bytes": 3352,
+      "sha256": "97625761fb88edda1479c1ad003ebe20937b651adf729ba5877098379e06befe"
+    },
+    {
+      "alias": "P1",
+      "relative_path": "ctd_ppt_data/ctd_ppt_data/疾病污染物.pptx",
+      "bytes": 3190438,
+      "sha256": "a25166a1cd79a91963d105fdaa786578ed54319d406e79047e54d9c71f4a6ab1"
+    }
+  ]
+}

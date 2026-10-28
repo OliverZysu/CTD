@@ -1,0 +1,4 @@
+model,accuracy,recall,f1,auroc,provenance,status
+GCN,0.8342,0.8517,0.843,0.9254,DDE 20251215 slide 2,reported_not_retrained
+MLP,0.8542,0.8631,0.8587,0.9392,DDE 20251215 slide 2,reported_not_retrained
+GAT,0.8474,0.8473,0.8474,0.9382,DDE 20251215 slide 2,reported_not_retrained

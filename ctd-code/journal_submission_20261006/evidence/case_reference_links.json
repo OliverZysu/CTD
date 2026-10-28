@@ -1,0 +1,175 @@
+{
+  "source_pptx": "/mnt/user-ssd/zengboyi/ctd/ctd_ppt_data/ctd_ppt_data/DDE组会文档20260125_环境.pptx",
+  "source_slide": 3,
+  "verified_at_utc": "2026-10-06T02:09:55.091515+00:00",
+  "verification_endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=12861854,9538487,1678802&retmode=xml",
+  "verification_http_status": 200,
+  "verification_response_sha256": "065e09e35bd11fc26ed4c9f5c284e10d00a45b4e6009aa524f3a523f1221860d",
+  "verification_limitations": "Only three references were independently verified at metadata and abstract level. Other links were recovered from the PowerPoint relationship XML and are not content-verified. Ordinary PubMed HTML returned a cookie challenge; the public NCBI efetch API returned HTTP 200. These references predate the project and show rediscovery or semantic examples, not prospective validation.",
+  "records": [
+    {
+      "compound": "Sulfamethoxazole",
+      "disease": "Acute Generalized Exanthematous Pustulosis",
+      "slide_title": "Acute generalized exanthematous pustulosis due to sulfamethoxazol with positive lymphocyte transformation test (LTT)",
+      "original_hyperlinks": [
+        "https://pubmed.ncbi.nlm.nih.gov/12861854/"
+      ],
+      "verification_status": "metadata_and_abstract_verified_via_NCBI_PubMed_efetch",
+      "pmid": "12861854",
+      "doi": null,
+      "pmcid": null,
+      "verified_title": "Acute generalized exanthematous pustulosis due to sulfamethoxazol with positive lymphocyte transformation test (LTT).",
+      "authors": [
+        "Anliker MD",
+        "Wüthrich B"
+      ],
+      "journal": "Journal of investigational allergology & clinical immunology",
+      "journal_abbreviation": "J Investig Allergol Clin Immunol",
+      "volume": "13",
+      "issue": "1",
+      "year": "2003",
+      "pages": "66-8",
+      "publication_types": [
+        "Case Reports",
+        "Journal Article"
+      ],
+      "canonical_pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/12861854/",
+      "evidence_summary": "A report describes a 48-year-old woman with acute generalized exanthematous pustulosis associated with sulfamethoxazole and a positive lymphocyte transformation test. The abstract supports a drug-hypersensitivity context.",
+      "evidence_type": "single-patient adverse-drug-reaction case report",
+      "direction": "adverse_event",
+      "safe_manuscript_use": "An example of literature-level adverse-event support, not a novel discovery or environmental population-level causal estimate.",
+      "short_supporting_excerpt": "acute generalized exanthematous pustulosis (AGEP) due to sulfamethoxazol in a 48-year-old woman"
+    },
+    {
+      "compound": "Methadone",
+      "disease": "Hyperglycemic Hyperosmolar Nonketotic Coma",
+      "slide_title": "Nonketotic hyperglycemic coma in toddlers after unintentional methadone ingestion",
+      "original_hyperlinks": [
+        "https://pubmed.ncbi.nlm.nih.gov/16997682/"
+      ],
+      "verification_status": "link_recovered_from_slide_only"
+    },
+    {
+      "compound": "Fibrinolytic Agents",
+      "disease": "Vertebrobasilar Insufficiency",
+      "slide_title": "Long-term outcome after intravenous thrombolysis of basilar artery occlusion",
+      "original_hyperlinks": [
+        "https://pubmed.ncbi.nlm.nih.gov/15494584/"
+      ],
+      "verification_status": "link_recovered_from_slide_only"
+    },
+    {
+      "compound": "Lithium",
+      "disease": "Hyperglycemic Hyperosmolar Nonketotic Coma",
+      "slide_title": "Hyperosmolar nonketotic coma precipitated by lithium-induced nephrogenic diabetes insipidus",
+      "original_hyperlinks": [
+        "https://pubmed.ncbi.nlm.nih.gov/9538487/"
+      ],
+      "verification_status": "metadata_and_abstract_verified_via_NCBI_PubMed_efetch",
+      "pmid": "9538487",
+      "doi": "10.1136/pgmj.74.867.39",
+      "pmcid": "PMC2360797",
+      "verified_title": "Hyperosmolar nonketotic coma precipitated by lithium-induced nephrogenic diabetes insipidus.",
+      "authors": [
+        "Azam H",
+        "Newton RW",
+        "Morris AD",
+        "Thompson CJ"
+      ],
+      "journal": "Postgraduate medical journal",
+      "journal_abbreviation": "Postgrad Med J",
+      "volume": "74",
+      "issue": "867",
+      "year": "1998",
+      "pages": "39-41",
+      "publication_types": [
+        "Case Reports",
+        "Journal Article"
+      ],
+      "canonical_pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/9538487/",
+      "evidence_summary": "A 45-year-old man receiving long-term lithium developed hyperosmolar nonketotic coma. The authors hypothesize that lithium-associated nephrogenic diabetes insipidus contributed to dehydration when diabetes developed.",
+      "evidence_type": "single-patient case report with hypothesized indirect mechanism",
+      "direction": "adverse_event_indirect_hypothesis",
+      "safe_manuscript_use": "Supports a clinical case involving a hypothesized indirect pathway; does not establish general environmental lithium causation.",
+      "short_supporting_excerpt": "nephrogenic diabetes insipidus, likely to be lithium-induced"
+    },
+    {
+      "compound": "Octreotide",
+      "disease": "Pancreatic Pseudocyst",
+      "slide_title": "Treatment of pancreatic pseudocysts with octreotide",
+      "original_hyperlinks": [
+        "https://pubmed.ncbi.nlm.nih.gov/1678802/"
+      ],
+      "verification_status": "metadata_and_abstract_verified_via_NCBI_PubMed_efetch",
+      "pmid": "1678802",
+      "doi": "10.1016/0140-6736(91)91102-z",
+      "pmcid": null,
+      "verified_title": "Treatment of pancreatic pseudocysts with octreotide.",
+      "authors": [
+        "Gullo L",
+        "Barbara L"
+      ],
+      "journal": "Lancet (London, England)",
+      "journal_abbreviation": "Lancet",
+      "volume": "338",
+      "issue": "8766",
+      "year": "1991",
+      "pages": "540-1",
+      "publication_types": [
+        "Clinical Trial",
+        "Journal Article"
+      ],
+      "canonical_pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/1678802/",
+      "evidence_summary": "Seven patients with chronic pancreatitis and pancreatic pseudocysts were treated with octreotide for two weeks. Four experienced reduced pseudocyst size; the abstract explicitly suggests a treatment role.",
+      "evidence_type": "small therapeutic clinical study",
+      "direction": "therapeutic",
+      "safe_manuscript_use": "A therapeutic relation must not be counted as evidence that octreotide causes pancreatic pseudocysts. Useful to motivate relation typing.",
+      "short_supporting_excerpt": "These findings suggest a role for octreotide in the treatment of pancreatic pseudocysts."
+    },
+    {
+      "compound": "Ritonavir",
+      "disease": "Pancreatic Pseudocyst",
+      "slide_title": "Lipid lowering therapy in patients with HIV infection",
+      "original_hyperlinks": [
+        "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736%2805%2979859-7/fulltext"
+      ],
+      "verification_status": "link_recovered_from_slide_only"
+    },
+    {
+      "compound": "Ceftazidime",
+      "disease": "Articulation Disorders",
+      "slide_title": "Neurotoxicity with Antimicrobials in the Elderly: A Review",
+      "original_hyperlinks": [
+        "https://www.clinicaltherapeutics.com/article/S0149-2918%2814%2900612-2/fulltext"
+      ],
+      "verification_status": "link_recovered_from_slide_only"
+    },
+    {
+      "compound": "Phenytoin",
+      "disease": "Lipomyelomeningocele",
+      "slide_title": "Use of Antiepileptic Medications in Pregnancy in Relation to Risks of Birth Defects",
+      "original_hyperlinks": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4816042/"
+      ],
+      "verification_status": "link_recovered_from_slide_only"
+    },
+    {
+      "compound": "Acetazolamide",
+      "disease": "Brain Death",
+      "slide_title": "Extensive brain infarction involving deep structures during an acetazolamide-challenged single-photon emission computed tomography scan in a patient with moyamoya disease",
+      "original_hyperlinks": [
+        "https://pubmed.ncbi.nlm.nih.gov/28689345/"
+      ],
+      "verification_status": "link_recovered_from_slide_only"
+    },
+    {
+      "compound": "Cocaine",
+      "disease": "Pneumopericardium",
+      "slide_title": "Cocaine-Induced Pneumopericardium: Safe for Discharge? A Case Report and Literature Review",
+      "original_hyperlinks": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6402214/"
+      ],
+      "verification_status": "link_recovered_from_slide_only"
+    }
+  ]
+}

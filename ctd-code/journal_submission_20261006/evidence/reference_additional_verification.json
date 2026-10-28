@@ -1,0 +1,29 @@
+[
+  {
+    "id": "ctd2025_correction",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11701620/fullTextXML",
+    "text": " 4 nar Nucleic Acids Research Nucleic Acids Res Oxford University Press PMC11701620 11701620 11701620 39574404 10.1093/nar/gkae1185 Correction to ‘Comparative Toxicogenomics Database's 20th anniversary: update 2025’ 22 11 2024 53 D1 D1724 D1724 7 1 2025 © The Author(s) 2024. Published by Oxford University Press on behalf of Nucleic Acids Research. This is an Open Access article distributed under the terms of the Creative Commons Attribution License ( https://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited. This corrects the article \" Comparative Toxicogenomics Database’s 20th anniversary: update 2025 \" on page D1328. status released display-pdf yes is-olf no is-manuscript no is-preprint no is-journal-matter no is-scanned no is-retracted no Collection date 2025 Jan 6. This is a correction to: Allan Peter Davis, Thomas C Wiegers, Daniela Sciaky, Fern Barkalow, Melissa Strong, Brent Wyatt, Jolene Wiegers, Roy McMorran, Sakib Abrar, Carolyn J Mattingly, Comparative Toxicogenomics Database's 20th anniversary: update 2025, Nucleic Acids Research , 2024, gkae883, https://doi.org/10.1093/nar/gkae883 In the originally published version of this article, ‘Comparative Toxicogenomics Database’ was not correctly capitalized in the article title. The publisher apologizes for the error. "
+  },
+  {
+    "id": "graphsage_venue",
+    "url": "https://arxiv.org/abs/1706.02216",
+    "venue_snippets": [
+      "ralizes to completely unseen graphs using a multi-graph dataset of protein-protein interactions. Comments: Published in NIPS 2017; version with full appendix and minor corrections Subjects: Social and Information Networks (cs.SI) ; Machine Learning (cs.LG); Machine Learning (stat.ML) Cite as: arXiv:1706.02216 [cs.SI] (or arXiv:1706.02216v"
+    ]
+  },
+  {
+    "id": "gat_venue",
+    "url": "https://arxiv.org/abs/1710.10903",
+    "venue_snippets": [
+      "ll as a protein-protein interaction dataset (wherein test graphs remain unseen during training). Comments: To appear at ICLR 2018. 12 pages, 2 figures Subjects: Machine Learning (stat.ML) ; Artificial Intelligence (cs.AI); Machine Learning (cs.LG); Social and Information Networks (cs.SI) Cite as: arXiv:1710.10903 [stat.ML] (or arXiv:1710."
+    ]
+  },
+  {
+    "id": "gcn_venue",
+    "url": "https://arxiv.org/abs/1609.02907",
+    "venue_snippets": [
+      " dataset we demonstrate that our approach outperforms related methods by a significant margin. Comments: Published as a conference paper at ICLR 2017 Subjects: Machine Learning (cs.LG) ; Machine Learning (stat.ML) Cite as: arXiv:1609.02907 [cs.LG] (or arXiv:1609.02907v4 [cs.LG] for this version) https://doi.org/10.48550/arXiv.1609.02907 F",
+      "ate that our approach outperforms related methods by a significant margin. Comments: Published as a conference paper at ICLR 2017 Subjects: Machine Learning (cs.LG) ; Machine Learning (stat.ML) Cite as: arXiv:1609.02907 [cs.LG] (or arXiv:1609.02907v4 [cs.LG] for this version) https://doi.org/10.48550/arXiv.1609.02907 Focus to learn more a"
+    ]
+  }
+]

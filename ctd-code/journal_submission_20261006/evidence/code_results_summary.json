@@ -1,0 +1,1324 @@
+{
+  "audit_type": "static code inspection and direct descriptive artifact counts; no model execution",
+  "source_directory": "/mnt/user-ssd/zengboyi/ctd/ctd_ppt_data/ctd_ppt_data/CTD",
+  "model_metrics_reproduced": false,
+  "wrong_predictions": {
+    "path": "/mnt/user-ssd/zengboyi/ctd/ctd_ppt_data/ctd_ppt_data/CTD/CTD/graphsage_wrong_predictions_all.csv",
+    "bytes": 4075874,
+    "sha256": "56f8adbe89388cb2b277665e6189be433d62f8f5e38f7cd65bbbd1fb512f0efd",
+    "columns": [
+      "化合物名",
+      "疾病名",
+      "预测概率"
+    ],
+    "rows": 62042,
+    "unique_compound_names": 16171,
+    "unique_disease_names": 6193,
+    "unique_name_pairs": 61973,
+    "duplicate_name_pair_rows_beyond_first": 69,
+    "name_pairs_with_multiple_rows": 69,
+    "exact_duplicate_rows_beyond_first": 69,
+    "rows_with_missing_field_values": 0,
+    "scores": {
+      "min": 0.5000077486038208,
+      "max": 0.9964913725852966,
+      "mean": 0.7483805419215419,
+      "quantiles_linear": {
+        "0.25": 0.6190396994352341,
+        "0.5": 0.7536072432994843,
+        "0.75": 0.878049299120903,
+        "0.9": 0.9412255764007569,
+        "0.95": 0.9621209472417831,
+        "0.99": 0.9833866637945176
+      },
+      "counts_ge": {
+        "0.5": 62042,
+        "0.9": 12413,
+        "0.95": 4844,
+        "0.99": 200,
+        "0.999": 0
+      }
+    },
+    "sorted_descending": true,
+    "top10_matches_first10": false,
+    "top10_name_pairs_found_anywhere_in_all_file": 0,
+    "top10": [
+      {
+        "化合物名": "Baclofen",
+        "疾病名": "Decerebrate State",
+        "预测概率": "0.9999955892562866"
+      },
+      {
+        "化合物名": "Ceftriaxone",
+        "疾病名": "Cerebral Ventriculitis",
+        "预测概率": "0.9999842643737793"
+      },
+      {
+        "化合物名": "Acetazolamide",
+        "疾病名": "Brain Death",
+        "预测概率": "0.9999791383743286"
+      },
+      {
+        "化合物名": "LY2066948",
+        "疾病名": "Myoma",
+        "预测概率": "0.9999580383300781"
+      },
+      {
+        "化合物名": "Fibrinolytic Agents",
+        "疾病名": "Vertebrobasilar Insufficiency",
+        "预测概率": "0.9999516010284424"
+      },
+      {
+        "化合物名": "apelin-13 peptide",
+        "疾病名": "Ear Deformities, Acquired",
+        "预测概率": "0.9999489784240723"
+      },
+      {
+        "化合物名": "carmofur",
+        "疾病名": "Granulosa cell tumor of the ovary",
+        "预测概率": "0.9999427795410156"
+      },
+      {
+        "化合物名": "Aspirin",
+        "疾病名": "Brain Death",
+        "预测概率": "0.999929666519165"
+      },
+      {
+        "化合物名": "Ritonavir",
+        "疾病名": "Pancreatic Pseudocyst",
+        "预测概率": "0.9999152421951294"
+      },
+      {
+        "化合物名": "varespladib",
+        "疾病名": "Snake Bites",
+        "预测概率": "0.9999141693115234"
+      }
+    ],
+    "interpretation": "Selected misclassified records. Probability is maximum predicted-class softmax, not necessarily association probability. True/predicted labels, stable IDs, full test set, and run identity are absent; classification metrics cannot be reconstructed.",
+    "first1000": {
+      "rows": 1000,
+      "unique_compound_names": 805,
+      "unique_disease_names": 739,
+      "unique_name_pairs": 998,
+      "top_compound_name_counts": [
+        [
+          "Ozone",
+          8
+        ],
+        [
+          "bisphenol F",
+          8
+        ],
+        [
+          "decamethrin",
+          6
+        ],
+        [
+          "Tobacco Smoke Pollution",
+          6
+        ],
+        [
+          "methylmercuric chloride",
+          6
+        ],
+        [
+          "bisphenol S",
+          5
+        ],
+        [
+          "Choline",
+          5
+        ],
+        [
+          "titanium dioxide",
+          5
+        ],
+        [
+          "bromovanin",
+          5
+        ],
+        [
+          "jinfukang",
+          5
+        ],
+        [
+          "Resveratrol",
+          4
+        ],
+        [
+          "Ethinyl Estradiol",
+          4
+        ],
+        [
+          "Benzo(a)pyrene",
+          4
+        ],
+        [
+          "Manganese",
+          4
+        ],
+        [
+          "chromium hexavalent ion",
+          4
+        ],
+        [
+          "3-(carbamoylamino)-5-(3-fluorophenyl)-N-(3-piperidyl)thiophene-2-carboxamide",
+          4
+        ],
+        [
+          "Folic Acid",
+          3
+        ],
+        [
+          "ReN 1869",
+          3
+        ],
+        [
+          "abrine",
+          3
+        ],
+        [
+          "Thioacetamide",
+          3
+        ]
+      ],
+      "top_disease_name_counts": [
+        [
+          "Diabetes Mellitus, Experimental",
+          11
+        ],
+        [
+          "Autistic Disorder",
+          9
+        ],
+        [
+          "Cell Transformation, Neoplastic",
+          9
+        ],
+        [
+          "Lung Neoplasms",
+          9
+        ],
+        [
+          "Prostatic Neoplasms",
+          9
+        ],
+        [
+          "Carcinoma, Hepatocellular",
+          9
+        ],
+        [
+          "Reperfusion Injury",
+          8
+        ],
+        [
+          "Chemical and Drug Induced Liver Injury",
+          7
+        ],
+        [
+          "Neoplasm Metastasis",
+          6
+        ],
+        [
+          "Breast Neoplasms",
+          6
+        ],
+        [
+          "Heart Failure",
+          6
+        ],
+        [
+          "Carcinoma, Squamous Cell",
+          6
+        ],
+        [
+          "Liver Neoplasms, Experimental",
+          6
+        ],
+        [
+          "Diabetes Mellitus, Type 2",
+          5
+        ],
+        [
+          "Mammary Neoplasms, Experimental",
+          5
+        ],
+        [
+          "Brain Ischemia",
+          5
+        ],
+        [
+          "Nerve Degeneration",
+          4
+        ],
+        [
+          "Neoplasms",
+          4
+        ],
+        [
+          "Kidney Diseases",
+          4
+        ],
+        [
+          "Carcinoma",
+          4
+        ]
+      ],
+      "score_min": 0.9793844223022461,
+      "score_max": 0.9964913725852966,
+      "interpretation": "First 1000 confidence-ranked errors; selection includes both possible error directions because labels were not exported."
+    }
+  },
+  "checkpoint_metadata": {
+    "best_gat_final.pt": {
+      "bytes": 3831098,
+      "tensor_shapes": {
+        "embedding.weight": [
+          728,
+          192
+        ],
+        "conv1.att_src": [
+          1,
+          4,
+          192
+        ],
+        "conv1.att_dst": [
+          1,
+          4,
+          192
+        ],
+        "conv1.bias": [
+          768
+        ],
+        "conv1.lin.weight": [
+          768,
+          192
+        ],
+        "conv2.att_src": [
+          1,
+          4,
+          192
+        ],
+        "conv2.att_dst": [
+          1,
+          4,
+          192
+        ],
+        "conv2.bias": [
+          192
+        ],
+        "conv2.lin.weight": [
+          768,
+          768
+        ],
+        "edge_mlp.0.weight": [
+          192,
+          384
+        ],
+        "edge_mlp.0.bias": [
+          192
+        ],
+        "edge_mlp.1.weight": [
+          192
+        ],
+        "edge_mlp.1.bias": [
+          192
+        ],
+        "edge_mlp.1.running_mean": [
+          192
+        ],
+        "edge_mlp.1.running_var": [
+          192
+        ],
+        "edge_mlp.1.num_batches_tracked": [],
+        "edge_mlp.4.weight": [
+          2,
+          192
+        ],
+        "edge_mlp.4.bias": [
+          2
+        ]
+      },
+      "interpretation": "Tensor metadata only, no tensor storage loaded and no model executed. No dataset or run identity is supplied."
+    },
+    "best_gat_improved.pt": {
+      "bytes": 62587855,
+      "tensor_shapes": {
+        "node_degrees": [
+          13942,
+          1
+        ],
+        "embedding.weight": [
+          13942,
+          256
+        ],
+        "degree_encoder.0.weight": [
+          64,
+          1
+        ],
+        "degree_encoder.0.bias": [
+          64
+        ],
+        "degree_encoder.2.weight": [
+          64,
+          64
+        ],
+        "degree_encoder.2.bias": [
+          64
+        ],
+        "type_embedding.weight": [
+          2,
+          64
+        ],
+        "input_fusion.weight": [
+          256,
+          384
+        ],
+        "input_fusion.bias": [
+          256
+        ],
+        "conv1.att_src": [
+          1,
+          8,
+          256
+        ],
+        "conv1.att_dst": [
+          1,
+          8,
+          256
+        ],
+        "conv1.bias": [
+          2048
+        ],
+        "conv1.lin.weight": [
+          2048,
+          256
+        ],
+        "ln1.weight": [
+          2048
+        ],
+        "ln1.bias": [
+          2048
+        ],
+        "conv2.att_src": [
+          1,
+          8,
+          256
+        ],
+        "conv2.att_dst": [
+          1,
+          8,
+          256
+        ],
+        "conv2.bias": [
+          2048
+        ],
+        "conv2.lin.weight": [
+          2048,
+          2048
+        ],
+        "ln2.weight": [
+          2048
+        ],
+        "ln2.bias": [
+          2048
+        ],
+        "conv3.att_src": [
+          1,
+          4,
+          256
+        ],
+        "conv3.att_dst": [
+          1,
+          4,
+          256
+        ],
+        "conv3.bias": [
+          256
+        ],
+        "conv3.lin.weight": [
+          1024,
+          2048
+        ],
+        "ln3.weight": [
+          256
+        ],
+        "ln3.bias": [
+          256
+        ],
+        "res_proj1.weight": [
+          2048,
+          256
+        ],
+        "res_proj1.bias": [
+          2048
+        ],
+        "res_proj2.weight": [
+          2048,
+          2048
+        ],
+        "res_proj2.bias": [
+          2048
+        ],
+        "edge_mlp.0.weight": [
+          512,
+          512
+        ],
+        "edge_mlp.0.bias": [
+          512
+        ],
+        "edge_mlp.1.weight": [
+          512
+        ],
+        "edge_mlp.1.bias": [
+          512
+        ],
+        "edge_mlp.4.weight": [
+          256,
+          512
+        ],
+        "edge_mlp.4.bias": [
+          256
+        ],
+        "edge_mlp.7.weight": [
+          3,
+          256
+        ],
+        "edge_mlp.7.bias": [
+          3
+        ]
+      },
+      "interpretation": "Tensor metadata only, no tensor storage loaded and no model executed. No dataset or run identity is supplied."
+    },
+    "best_gat_optimized.pt": {
+      "bytes": 17590226,
+      "tensor_shapes": {
+        "embedding.weight": [
+          13942,
+          256
+        ],
+        "conv1.att_src": [
+          1,
+          8,
+          256
+        ],
+        "conv1.att_dst": [
+          1,
+          8,
+          256
+        ],
+        "conv1.bias": [
+          2048
+        ],
+        "conv1.lin.weight": [
+          2048,
+          256
+        ],
+        "conv2.att_src": [
+          1,
+          1,
+          128
+        ],
+        "conv2.att_dst": [
+          1,
+          1,
+          128
+        ],
+        "conv2.bias": [
+          128
+        ],
+        "conv2.lin.weight": [
+          128,
+          2048
+        ],
+        "edge_mlp.0.weight": [
+          128,
+          256
+        ],
+        "edge_mlp.0.bias": [
+          128
+        ],
+        "edge_mlp.1.weight": [
+          128
+        ],
+        "edge_mlp.1.bias": [
+          128
+        ],
+        "edge_mlp.1.running_mean": [
+          128
+        ],
+        "edge_mlp.1.running_var": [
+          128
+        ],
+        "edge_mlp.1.num_batches_tracked": [],
+        "edge_mlp.4.weight": [
+          3,
+          128
+        ],
+        "edge_mlp.4.bias": [
+          3
+        ]
+      },
+      "interpretation": "Tensor metadata only, no tensor storage loaded and no model executed. No dataset or run identity is supplied."
+    },
+    "best_graphsage.pt": {
+      "bytes": 13472158,
+      "tensor_shapes": {
+        "embedding.weight": [
+          25018,
+          128
+        ],
+        "conv1.lin_l.weight": [
+          256,
+          128
+        ],
+        "conv1.lin_l.bias": [
+          256
+        ],
+        "conv1.lin_r.weight": [
+          256,
+          128
+        ],
+        "conv2.lin_l.weight": [
+          128,
+          256
+        ],
+        "conv2.lin_l.bias": [
+          128
+        ],
+        "conv2.lin_r.weight": [
+          128,
+          256
+        ],
+        "edge_mlp.0.weight": [
+          128,
+          256
+        ],
+        "edge_mlp.0.bias": [
+          128
+        ],
+        "edge_mlp.3.weight": [
+          2,
+          128
+        ],
+        "edge_mlp.3.bias": [
+          2
+        ]
+      },
+      "interpretation": "Tensor metadata only, no tensor storage loaded and no model executed. No dataset or run identity is supplied."
+    }
+  },
+  "sider_format_tsvs": {
+    "meddra_all_se.tsv": {
+      "path": "/mnt/user-ssd/zengboyi/ctd/ctd_ppt_data/ctd_ppt_data/CTD/meddra_all_se.tsv",
+      "bytes": 19486644,
+      "sha256": "6d09f8bac5e7661e285ecabb80224194746e227603fbd2d6e81437b4357671e3",
+      "physical_lines": 309849,
+      "blank_lines": 0,
+      "nonblank_rows_by_field_count": {
+        "6": 309849
+      },
+      "term_type_rows": {
+        "LLT": 145742,
+        "PT": 163206,
+        "": 901
+      },
+      "unique_flat_drug_ids_all_rows": 1430,
+      "unique_stereo_drug_ids_all_rows": 1556,
+      "unique_mapped_concepts_all_rows": 6061,
+      "unique_mapped_names_all_rows": 6123,
+      "pt_unique_flat_drug_ids": 1430,
+      "pt_unique_mapped_concepts": 4251,
+      "pt_unique_mapped_names": 4251,
+      "pt_unique_drug_concept_pairs": 145321,
+      "interpretation": "SIDER-format adverse-event rows. Counts are artifact descriptions, not CTD graph dimensions or evidence that the supplied models trained on SIDER."
+    },
+    "meddra_freq.tsv": {
+      "path": "/mnt/user-ssd/zengboyi/ctd/ctd_ppt_data/ctd_ppt_data/CTD/meddra_freq.tsv",
+      "bytes": 23507995,
+      "sha256": "e83f867c18c30ae57d66181b04b7db133c1aa7c1eefb1abc296b7850b700ddee",
+      "physical_lines": 291633,
+      "blank_lines": 1,
+      "nonblank_rows_by_field_count": {
+        "10": 291632
+      },
+      "term_type_rows": {
+        "LLT": 136706,
+        "PT": 154507,
+        "": 419
+      },
+      "unique_flat_drug_ids_all_rows": 968,
+      "unique_stereo_drug_ids_all_rows": 1035,
+      "unique_mapped_concepts_all_rows": 3927,
+      "unique_mapped_names_all_rows": 3964,
+      "pt_unique_flat_drug_ids": 968,
+      "pt_unique_mapped_concepts": 2964,
+      "pt_unique_mapped_names": 2964,
+      "pt_unique_drug_concept_pairs": 59542,
+      "interpretation": "SIDER-format adverse-event rows. Counts are artifact descriptions, not CTD graph dimensions or evidence that the supplied models trained on SIDER."
+    }
+  },
+  "source_checks": {
+    "data_analysis.py": {
+      "syntax": "ok",
+      "main_constants": {},
+      "loader_assignment_arity": []
+    },
+    "data_utils.py": {
+      "syntax": "ok",
+      "main_constants": {},
+      "loader_assignment_arity": []
+    },
+    "degree_logreg_baseline.py": {
+      "syntax": "ok",
+      "main_constants": {
+        "FILE_PATH": {
+          "value": "/home/byzeng/hjwrw_all_data/direct_evidence_relationships.csv",
+          "line": 55
+        },
+        "NEGATIVE_RATIO": {
+          "value": 1.0,
+          "line": 56
+        },
+        "VAL_RATIO": {
+          "value": 0.1,
+          "line": 57
+        },
+        "TEST_RATIO": {
+          "value": 0.1,
+          "line": 58
+        },
+        "MAX_ITER": {
+          "value": 200,
+          "line": 59
+        },
+        "C": {
+          "value": 1.0,
+          "line": 60
+        }
+      },
+      "loader_assignment_arity": [
+        {
+          "line": 62,
+          "arity": 4
+        }
+      ]
+    },
+    "gat.py": {
+      "syntax": "ok",
+      "main_constants": {
+        "FILE_PATH": {
+          "value": "/home/byzeng/hjwrw_all_data/direct_evidence_relationships.csv",
+          "line": 106
+        },
+        "EMBEDDING_DIM": {
+          "value": 128,
+          "line": 107
+        },
+        "HIDDEN_CHANNELS": {
+          "value": 128,
+          "line": 108
+        },
+        "OUT_CHANNELS": {
+          "value": 128,
+          "line": 109
+        },
+        "HEADS_LAYER1": {
+          "value": 4,
+          "line": 110
+        },
+        "HEADS_LAYER2": {
+          "value": 4,
+          "line": 111
+        },
+        "LEARNING_RATE": {
+          "value": 0.005,
+          "line": 112
+        },
+        "WEIGHT_DECAY": {
+          "value": 0.0001,
+          "line": 113
+        },
+        "EPOCHS": {
+          "value": 100,
+          "line": 114
+        },
+        "DROPOUT_RATE": {
+          "value": 0.1,
+          "line": 115
+        },
+        "ATTN_DROPOUT": {
+          "value": 0.1,
+          "line": 116
+        },
+        "NEGATIVE_RATIO": {
+          "value": 1.0,
+          "line": 117
+        },
+        "VAL_RATIO": {
+          "value": 0.1,
+          "line": 118
+        },
+        "TEST_RATIO": {
+          "value": 0.1,
+          "line": 119
+        }
+      },
+      "loader_assignment_arity": [
+        {
+          "line": 124,
+          "arity": 4
+        }
+      ]
+    },
+    "gat_final.py": {
+      "syntax": "ok",
+      "main_constants": {
+        "FILE_PATH": {
+          "value": "/home/byzeng/hjwrw_all_data/CTD_chemicals_diseases.csv",
+          "line": 182
+        },
+        "ENV_JSON_PATH": {
+          "value": "/home/byzeng/hjwrw_all_data/环境污染物_pubchemCID.json",
+          "line": 184
+        },
+        "USE_CSV": {
+          "value": true,
+          "line": 185
+        },
+        "USE_JSON": {
+          "value": false,
+          "line": 186
+        },
+        "FORCE_BINARY": {
+          "value": true,
+          "line": 187
+        },
+        "USE_NEIGHBOR_SAMPLING": {
+          "value": true,
+          "line": 188
+        },
+        "BATCH_SIZE": {
+          "value": 2048,
+          "line": 189
+        },
+        "NUM_NEIGHBORS": {
+          "value": [
+            15,
+            10
+          ],
+          "line": 190
+        },
+        "NUM_WORKERS": {
+          "value": 0,
+          "line": 191
+        },
+        "EMBEDDING_DIM": {
+          "value": 192,
+          "line": 195
+        },
+        "HIDDEN_CHANNELS": {
+          "value": 192,
+          "line": 196
+        },
+        "OUT_CHANNELS": {
+          "value": 192,
+          "line": 197
+        },
+        "HEADS_LAYER1": {
+          "value": 4,
+          "line": 198
+        },
+        "HEADS_LAYER2": {
+          "value": 4,
+          "line": 199
+        },
+        "LEARNING_RATE": {
+          "value": 0.005,
+          "line": 201
+        },
+        "WEIGHT_DECAY": {
+          "value": 0.0001,
+          "line": 202
+        },
+        "EPOCHS": {
+          "value": 150,
+          "line": 203
+        },
+        "DROPOUT_RATE": {
+          "value": 0.1,
+          "line": 204
+        },
+        "ATTN_DROPOUT": {
+          "value": 0.1,
+          "line": 205
+        },
+        "NEGATIVE_RATIO": {
+          "value": 1.0,
+          "line": 206
+        },
+        "VAL_RATIO": {
+          "value": 0.1,
+          "line": 207
+        },
+        "TEST_RATIO": {
+          "value": 0.1,
+          "line": 208
+        }
+      },
+      "loader_assignment_arity": [
+        {
+          "line": 213,
+          "arity": 5
+        }
+      ]
+    },
+    "gat_improved.py": {
+      "syntax": "ok",
+      "main_constants": {
+        "FILE_PATH": {
+          "value": "/home/byzeng/hjwrw_all_data/direct_evidence_relationships.csv",
+          "line": 233
+        },
+        "EMBEDDING_DIM": {
+          "value": 256,
+          "line": 236
+        },
+        "HIDDEN_CHANNELS": {
+          "value": 256,
+          "line": 237
+        },
+        "OUT_CHANNELS": {
+          "value": 256,
+          "line": 238
+        },
+        "HEADS_LAYER1": {
+          "value": 8,
+          "line": 239
+        },
+        "HEADS_LAYER2": {
+          "value": 8,
+          "line": 240
+        },
+        "HEADS_LAYER3": {
+          "value": 4,
+          "line": 241
+        },
+        "LEARNING_RATE": {
+          "value": 0.001,
+          "line": 242
+        },
+        "WEIGHT_DECAY": {
+          "value": 0.0005,
+          "line": 243
+        },
+        "EPOCHS": {
+          "value": 150,
+          "line": 244
+        },
+        "DROPOUT_RATE": {
+          "value": 0.2,
+          "line": 245
+        },
+        "ATTN_DROPOUT": {
+          "value": 0.2,
+          "line": 246
+        },
+        "NEGATIVE_RATIO": {
+          "value": 1.0,
+          "line": 247
+        },
+        "VAL_RATIO": {
+          "value": 0.1,
+          "line": 248
+        },
+        "TEST_RATIO": {
+          "value": 0.1,
+          "line": 249
+        }
+      },
+      "loader_assignment_arity": [
+        {
+          "line": 254,
+          "arity": 4
+        }
+      ]
+    },
+    "gat_optimized.py": {
+      "syntax": "ok",
+      "main_constants": {
+        "FILE_PATH": {
+          "value": "/home/byzeng/hjwrw_all_data/direct_evidence_relationships.csv",
+          "line": 120
+        },
+        "EMBEDDING_DIM": {
+          "value": 256,
+          "line": 123
+        },
+        "HIDDEN_CHANNELS": {
+          "value": 256,
+          "line": 124
+        },
+        "OUT_CHANNELS": {
+          "value": 128,
+          "line": 125
+        },
+        "HEADS_LAYER1": {
+          "value": 8,
+          "line": 126
+        },
+        "HEADS_LAYER2": {
+          "value": 1,
+          "line": 127
+        },
+        "LEARNING_RATE": {
+          "value": 0.002,
+          "line": 129
+        },
+        "WEIGHT_DECAY": {
+          "value": 0.0001,
+          "line": 130
+        },
+        "EPOCHS": {
+          "value": 150,
+          "line": 131
+        },
+        "DROPOUT_RATE": {
+          "value": 0.3,
+          "line": 132
+        },
+        "ATTN_DROPOUT": {
+          "value": 0.1,
+          "line": 133
+        },
+        "NEGATIVE_RATIO": {
+          "value": 1.0,
+          "line": 134
+        },
+        "VAL_RATIO": {
+          "value": 0.1,
+          "line": 135
+        },
+        "TEST_RATIO": {
+          "value": 0.1,
+          "line": 136
+        }
+      },
+      "loader_assignment_arity": [
+        {
+          "line": 142,
+          "arity": 4
+        }
+      ]
+    },
+    "gcn.py": {
+      "syntax": "IndentationError",
+      "line": 42,
+      "message": "expected an indented block after 'if' statement on line 41"
+    },
+    "graphsage.py": {
+      "syntax": "ok",
+      "main_constants": {
+        "FILE_PATH": {
+          "value": "/home/byzeng/hjwrw_all_data/CTD_chemicals_diseases.csv",
+          "line": 153
+        },
+        "ENV_JSON_PATH": {
+          "value": "/home/byzeng/hjwrw_all_data/环境污染物_pubchemCID.json",
+          "line": 155
+        },
+        "USE_CSV": {
+          "value": true,
+          "line": 156
+        },
+        "USE_JSON": {
+          "value": false,
+          "line": 157
+        },
+        "FORCE_BINARY": {
+          "value": true,
+          "line": 158
+        },
+        "EMBEDDING_DIM": {
+          "value": 128,
+          "line": 161
+        },
+        "HIDDEN_CHANNELS": {
+          "value": 256,
+          "line": 162
+        },
+        "OUT_CHANNELS": {
+          "value": 128,
+          "line": 163
+        },
+        "LEARNING_RATE": {
+          "value": 0.005,
+          "line": 164
+        },
+        "EPOCHS": {
+          "value": 80,
+          "line": 165
+        },
+        "DROPOUT_RATE": {
+          "value": 0.1,
+          "line": 166
+        },
+        "WEIGHT_DECAY": {
+          "value": 0.0001,
+          "line": 167
+        },
+        "NEGATIVE_RATIO": {
+          "value": 1.0,
+          "line": 168
+        },
+        "VAL_RATIO": {
+          "value": 0.1,
+          "line": 169
+        },
+        "TEST_RATIO": {
+          "value": 0.1,
+          "line": 170
+        }
+      },
+      "loader_assignment_arity": [
+        {
+          "line": 175,
+          "arity": 5
+        }
+      ]
+    },
+    "lightgcn.py": {
+      "syntax": "ok",
+      "main_constants": {
+        "FILE_PATH": {
+          "value": "/home/byzeng/hjwrw_all_data/direct_evidence_relationships.csv",
+          "line": 93
+        },
+        "EMBEDDING_DIM": {
+          "value": 128,
+          "line": 94
+        },
+        "NUM_LAYERS": {
+          "value": 3,
+          "line": 95
+        },
+        "DROPOUT_RATE": {
+          "value": 0.1,
+          "line": 96
+        },
+        "LEARNING_RATE": {
+          "value": 0.005,
+          "line": 97
+        },
+        "WEIGHT_DECAY": {
+          "value": 5e-05,
+          "line": 98
+        },
+        "EPOCHS": {
+          "value": 100,
+          "line": 99
+        },
+        "NEGATIVE_RATIO": {
+          "value": 1.0,
+          "line": 100
+        },
+        "VAL_RATIO": {
+          "value": 0.1,
+          "line": 101
+        },
+        "TEST_RATIO": {
+          "value": 0.1,
+          "line": 102
+        }
+      },
+      "loader_assignment_arity": [
+        {
+          "line": 107,
+          "arity": 4
+        }
+      ]
+    },
+    "mlp.py": {
+      "syntax": "ok",
+      "main_constants": {
+        "FILE_PATH": {
+          "value": "/home/byzeng/hjwrw_all_data/high_inference_score_relationships.csv",
+          "line": 292
+        },
+        "ENV_JSON_PATH": {
+          "value": "/home/byzeng/hjwrw_all_data/环境污染物_pubchemCID.json",
+          "line": 294
+        },
+        "USE_CSV": {
+          "value": true,
+          "line": 295
+        },
+        "USE_JSON": {
+          "value": false,
+          "line": 296
+        },
+        "FORCE_BINARY": {
+          "value": true,
+          "line": 297
+        },
+        "EMBEDDING_DIM": {
+          "value": 64,
+          "line": 298
+        },
+        "HIDDEN_CHANNELS": {
+          "value": 128,
+          "line": 299
+        },
+        "LEARNING_RATE": {
+          "value": 0.01,
+          "line": 300
+        },
+        "EPOCHS": {
+          "value": 100,
+          "line": 301
+        },
+        "DROPOUT_RATE": {
+          "value": 0.1,
+          "line": 302
+        },
+        "NEGATIVE_RATIO": {
+          "value": 1.0,
+          "line": 303
+        },
+        "VAL_RATIO": {
+          "value": 0.1,
+          "line": 304
+        },
+        "TEST_RATIO": {
+          "value": 0.1,
+          "line": 305
+        }
+      },
+      "loader_assignment_arity": [
+        {
+          "line": 311,
+          "arity": 5
+        }
+      ]
+    },
+    "node2vec_baseline.py": {
+      "syntax": "ok",
+      "main_constants": {
+        "FILE_PATH": {
+          "value": "/home/byzeng/hjwrw_all_data/direct_evidence_relationships.csv",
+          "line": 90
+        },
+        "N2V_EMBED_DIM": {
+          "value": 128,
+          "line": 93
+        },
+        "N2V_WALK_LENGTH": {
+          "value": 20,
+          "line": 94
+        },
+        "N2V_CONTEXT_SIZE": {
+          "value": 10,
+          "line": 95
+        },
+        "N2V_WALKS_PER_NODE": {
+          "value": 10,
+          "line": 96
+        },
+        "N2V_NEGATIVE_SAMPLES": {
+          "value": 1,
+          "line": 97
+        },
+        "N2V_LR": {
+          "value": 0.01,
+          "line": 98
+        },
+        "N2V_BATCH_SIZE": {
+          "value": 256,
+          "line": 99
+        },
+        "N2V_EPOCHS": {
+          "value": 20,
+          "line": 100
+        },
+        "CLASSIFIER_HIDDEN": {
+          "value": 128,
+          "line": 103
+        },
+        "CLASSIFIER_DROPOUT": {
+          "value": 0.1,
+          "line": 104
+        },
+        "CLASSIFIER_LR": {
+          "value": 0.01,
+          "line": 105
+        },
+        "CLASSIFIER_WEIGHT_DECAY": {
+          "value": 5e-05,
+          "line": 106
+        },
+        "CLASSIFIER_EPOCHS": {
+          "value": 80,
+          "line": 107
+        },
+        "NEGATIVE_RATIO": {
+          "value": 1.0,
+          "line": 109
+        },
+        "VAL_RATIO": {
+          "value": 0.1,
+          "line": 110
+        },
+        "TEST_RATIO": {
+          "value": 0.1,
+          "line": 111
+        }
+      },
+      "loader_assignment_arity": [
+        {
+          "line": 116,
+          "arity": 4
+        }
+      ]
+    }
+  },
+  "logs": {
+    "gat_improved_training.log": {
+      "path": "/mnt/user-ssd/zengboyi/ctd/ctd_ppt_data/ctd_ppt_data/CTD/gat_improved_training.log",
+      "bytes": 212,
+      "sha256": "af86ee46be8763a7f750c46b117ce7d3e73989bc95012174bebdbce1eca55601",
+      "lines": 4,
+      "terminal_line": "ModuleNotFoundError: No module named 'torch_geometric'",
+      "contains_numeric_training_metrics": false
+    },
+    "gat_optimized_training.log": {
+      "path": "/mnt/user-ssd/zengboyi/ctd/ctd_ppt_data/ctd_ppt_data/CTD/gat_optimized_training.log",
+      "bytes": 213,
+      "sha256": "262311b02e20f4d9cac68806fd72fc59fc76eb6e2fe1fbb19cb25badb58e479a",
+      "lines": 4,
+      "terminal_line": "ModuleNotFoundError: No module named 'torch_geometric'",
+      "contains_numeric_training_metrics": false
+    }
+  },
+  "referenced_inputs": [
+    {
+      "path": "/home/byzeng/hjwrw_all_data/CTD_chemicals_diseases.csv",
+      "exists": false,
+      "present_in_audited_CTD_directory": false
+    },
+    {
+      "path": "/home/byzeng/hjwrw_all_data/direct_evidence_relationships.csv",
+      "exists": false,
+      "present_in_audited_CTD_directory": false
+    },
+    {
+      "path": "/home/byzeng/hjwrw_all_data/high_inference_score_relationships.csv",
+      "exists": false,
+      "present_in_audited_CTD_directory": false
+    },
+    {
+      "path": "/home/byzeng/hjwrw_all_data/环境污染物_pubchemCID.json",
+      "exists": false,
+      "present_in_audited_CTD_directory": false
+    }
+  ]
+}

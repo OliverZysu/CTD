@@ -1,0 +1,332 @@
+Supplementary information
+Draft for author review
+Supplementary information
+Graph-based exploration of chemical–disease associations with literature and gene-context
+evidence
+This document records the evidence basis of the exploratory manuscript and specifies a prospective
+evaluation design. Reported historical outcomes, direct descriptive reanalysis and future experiments are
+identified separately. No model training, new literature-screening experiment or new gene-path computation
+was performed in preparing this analysis.
+S1
+Source provenance
+Seven presentation files, the interface specification, model sources, two training logs, four weight files,
+prediction exports and the shared-gene plotting script were inspected. Presentation text was extracted slide
+by slide; embedded literature charts and the gene-overlap chart were also inspected visually. Table S1 maps
+the main quantitative claims to these materials. The original filenames and content hashes are retained in
+the accompanying evidence/source_inventory.json; aliases avoid ambiguity among similarly
+titled progress reports.
+Table S1. Provenance of the quantitative claims. Reported results have not been reproduced from original training or
+screening inputs.
+Claim
+Source locator
+Status and interpretation
+CTD 9,546,982 records; direct
+subset 108,217
+P1, slides 2 and 4
+Reported inventory; not unique-edge
+counts
+Exposure 3,125 records
+P1, slides 2 and 10; P5, slide 2
+Reported literature-extracted collection
+Exposure graph: 639 chemicals,
+94 diseases
+P2, slide 2
+Reported pilot graph
+GCN/MLP/GAT exposure met-
+rics
+P2, slide 2
+Single reported table; split and averag-
+ing details unavailable
+Seven-window literature yields
+P1, slide 14 chart
+Transcribed chart labels; individual
+judgments unavailable
+304/1,000 and 72/1,000 litera-
+ture yields
+P1, slide 15 chart
+Reported ranked/random retrieval out-
+comes
+62,042 records; 61,973 name
+pairs
+E1, entire CSV
+Recomputed directly from retained
+records
+128 shared-gene records; 639
+mappable
+P3, slide 1
+Reported gene screen
+12.8% observed; 18.7% permu-
+tation mean
+E3 chart; E4 script
+Chart-reported comparison, not a rerun
+Three case publications
+P4, slide 3 hyperlinks
+Bibliographic records and abstracts in-
+dependently checked through PubMed
+P1 denotes the 15-slide disease–pollutant overview; P2 the environmental group meeting presentation
+dated 15 December 2025; P3 the 0809 weekly progress presentation; P4 the environmental group meeting
+dated 25 January 2026; and P5 the corresponding 2 February 2026 presentation. P5, slide 3 reverses the
+labels for the CTD and exposure counts. The main manuscript uses the assignment corroborated by P1 and
+P5, slide 2.
+E1 is graphsage_wrong_predictions_all.csv; E2 is graphsage_top10_wrong_
+predictions.csv; E3 is mechanism_support_0809.png; and E4 is build_weekly_
+progress_0809.py. The inference-score threshold table in P1 is not used as evidence for unique
+1
+
+Supplementary information
+Draft for author review
+graph sizes: its nested chemical counts are inconsistent, and record totals exceed possible unique-pair totals
+for one reported subset. This exclusion does not affect the directly counted prediction export.
+S2
+Model configuration and reproducibility limits
+Table S2 describes the retained GraphSAGE source. Training and validation are full-graph encodings of
+the same training-positive edge set, followed by pair classification on each split. No explicit neighborhood
+sampler is used in this GraphSAGE entry point. Although GraphSAGE supports inductive applications,
+this implementation uses learned node identities and does not supply features for an unseen chemical or
+disease.
+Table S2. Retained GraphSAGE configuration. This is a source inspection, not a reconstructed run manifest.
+Item
+Value or behavior
+Node embedding
+128 dimensions; learned per node
+Encoder
+Two SAGEConv layers: 128→256→128
+Decoder
+Concatenation; Linear 256→128; ReLU; dropout;
+Linear 128→2
+Dropout
+0.1
+Optimizer
+Adam; learning rate 0.005; weight decay 10−4
+Epochs / checkpoint criterion
+80 / highest validation macro-F1
+Positive / negative record ratio
+1:1; unobserved negatives sampled with replacement
+Split
+Approximately 80/10/10, stratified by label at record
+level
+Loader random seed
+NumPy seed 42; not a complete training-seed specifi-
+cation
+Graph direction
+Chemical to disease; no explicit reverse edges
+Export rule
+Misclassified test records;
+score is maximum
+predicted-class softmax
+The loader returns five values. Six retained baseline entry points unpack four; the GCN source also
+fails static parsing because of an indentation error. The two available GAT logs terminate with a missing
+torch_geometric dependency and contain no numerical epoch metrics. The original CTD and
+environmental input paths are absent. These observations prevent the current source collection from serving
+as a single verified reproduction environment. They do not establish that the earlier experiments were never
+run.
+Weight-file metadata further indicates different task configurations: the retained GraphSAGE embedding
+has 25,018 nodes and a two-class output, the final GAT embedding has 728 nodes and two classes, and two
+other GAT weights have 13,942 nodes and three classes. These metadata were inspected without executing
+the serialized models. Weight files with different node counts and output classes cannot be treated as
+matched model-comparison results without their own input mappings and run manifests.
+S3
+Literature-screening aggregates
+Table S3 contains the expanded-window rates. Counts in the third column are reconstructed from the
+printed percentages and a stated denominator of 1,000; they are not a substitute for individual literature
+judgments. For the first six windows, support decreases as numerical rank increases. Thus a Spearman
+coefficient computed against numerical rank would be negative; a positive sign would refer to a decreasing
+score axis. The manuscript omits the ambiguous correlation annotation in the source chart and reports the
+observed sequence directly.
+2
+
+Supplementary information
+Draft for author review
+Table S3. Literature-retrieval summaries from the seven-window chart.
+Ranks
+Records examined
+Reconstructed supported count
+Reported yield
+1–1,000
+1,000
+304
+30.4%
+10,001–11,000
+1,000
+193
+19.3%
+20,001–21,000
+1,000
+158
+15.8%
+30,001–31,000
+1,000
+155
+15.5%
+40,001–41,000
+1,000
+145
+14.5%
+50,001–51,000
+1,000
+144
+14.4%
+60,001–61,000
+1,000
+178
+17.8%
+Within the first window, the ten consecutive 100-record bins have reported yields of 38, 34, 37, 30, 28,
+33, 21, 31, 29 and 23%. The corresponding printed-bin counts sum to 304, consistent with the aggregate
+30.4% yield. The original 100-per-window screening and the later 1,000-per-window screening are not
+pooled as independent samples because their overlap is not documented.
+The uniform random-pair comparator reports 72 supported pairs among 1,000. Its vocabulary sizes,
+16,171 chemical names and 6,193 disease names, match the distinct names directly counted in E1. That
+numerical correspondence does not establish the identity of the historical sampled pairs, deduplication
+policy or retrieval run. The ratio 30.4/7.2 = 4.222... is therefore a descriptive comparison of the reported
+yields.
+S4
+Prediction-export analysis and gene denominators
+The reproducible descriptive script parses CSV rather than counting physical lines, treats names as strings,
+and checks distinct pairs and complete-row duplicates. It returns 62,042 records in E1. The source file is
+identified by SHA256:
+56f8adbe89388cb2b277665e6189be433
+d62f8f5e38f7cd65bbbd1fb512f0efd
+The file is sorted by decreasing score. All 69 repeated pair occurrences are exact duplicates in the stored
+fields. The absence of labels, stable identifiers and run identity means that an exact name-pair duplicate
+cannot be traced to a duplicate source record, a repeated negative draw or a later export operation. The
+separate E2 file is not a subset of E1 by chemical–disease name pair and is not combined with it.
+For a permutation πb of the 1,000 disease labels, the comparator is
+Rb =
+1
+1000
+1000
+∑
+i=1
+P(ci,dπb(i)),
+¯R =
+1
+200
+200
+∑
+b=1
+Rb.
+The rate among mappable original pairs is a different estimand from Rb. Permuting labels can alter
+which chemical–disease pairings have mapped values on both sides, even when each marginal multiset is
+preserved. Without replicate-level rates and mapping indicators, neither a conditional null comparison nor
+a significance calculation is available. The figure uses the matching all-record denominator only.
+S5
+Evidence semantics and example publications
+PMIDs 12861854, 9538487 and 1678802 were checked through the official NCBI PubMed efetch endpoint
+on 6 October 2026. Verification covered bibliographic metadata and abstracts, not an independent reanalysis
+of patient data or a full systematic review. The first describes sulfamethoxazole-associated acute generalized
+3
+
+Supplementary information
+Draft for author review
+Table S4. Additional descriptive quantities and gene-screen denominators. CSV quantities are recomputed; gene-
+screen quantities are reported aggregates.
+Quantity
+Value
+E1 mean maximum-class score
+0.7483805
+E1 median maximum-class score
+0.7536072
+E1 records with score ≥0.90
+12,413
+E1 records with score ≥0.95
+4,844
+E1 records with score ≥0.99
+200
+Gene-screen selected records
+1,000
+Mappable on both chemical and disease sides
+639 (63.9%)
+Shared-gene records
+128
+Shared-gene rate among mappable records
+20.03%
+Shared-gene rate among all selected records
+12.8%
+Mean overall rate under 200 disease-label permutations
+18.7%
+exanthematous pustulosis, the second a hypothesized indirect lithium-related clinical pathway, and the third
+a therapeutic octreotide study. These examples demonstrate why co-retrieval of two entity names cannot
+determine relation direction.
+The evidence record proposed for a future system includes: chemical and disease identifiers; original
+names; relation type; model score and score class; graph snapshot and run identifier; source PMID and DOI;
+resolved Acemap identifier; original evidence passage and its location; organism and study design; exposure
+context; evidence category; reviewer status; and retrieval date. A source link, a resolved bibliographic
+match and scientific support for the asserted relation should be separate fields.
+S6
+Prospective evaluation specification
+This section is a proposed research protocol. It supplies no completed experiment results.
+Dataset freezing and identity. Save source release/date, license, checksum and extraction criteria.
+Resolve chemicals with explicit namespaces and retain mixtures or classes without forcing a molecular
+identity. Resolve diseases to supported ontology identifiers. Preserve source-level rows but construct model
+splits from unique identifier pairs and typed relations. Record uncertain mappings and report their coverage.
+Labels and candidate universe.
+Separate therapeutic, adverse-event, exposure-association,
+marker/mechanism and inferred relationships. Use a declared binary task only when the collapsed
+meaning is appropriate. Label absent pairs as unobserved; document negative sampling and evaluate
+sensitivity to its choice. Export all positive-class candidate scores outside the frozen known-pair set, with y,
+ˆy, score vector, split, entity IDs, pair ID, snapshot and run ID.
+Splits and leakage checks. Publish unique-pair train/validation/test manifests. Require zero held-out
+pair overlap with training labels and message-passing edges, including reverse-edge and source-alias checks.
+Where gene-mediated edges derive from target associations, check target-dependent inference leakage.
+Assess transductive random, chemical-disjoint, disease-disjoint and temporal splits as distinct settings.
+Specify how unseen nodes are represented before interpreting disjoint evaluations.
+Comparators and metrics. Compare degree-based scores, an embedding MLP and graph baselines on
+identical splits. Include a disease-association-specific method such as LAGCN or MRDDA when its inputs
+and implementation can be made comparable. Predefine tuning budgets and at least five independently
+seeded runs as a practical project target. Report AUROC, average precision, precision at fixed review
+budgets and calibration. Use paired comparisons and uncertainty estimates appropriate to repeated entities;
+disclose how prevalence in the test set differs from the application candidate space.
+4
+
+Supplementary information
+Draft for author review
+Literature validation. Freeze the prediction list before searching. Record query strings, date, retrieval
+system, model version if used, and retained bibliographic identifiers. Use an explicit rubric: direct relation
+support; indirect/contextual support; therapeutic relation; contradictory result; co-mention only; or no
+eligible evidence. Obtain independent judgments and adjudicate disagreement. Separate pre-cutoff literature
+from later evidence and remove articles used to construct training labels from any independent-validation
+count. Compare uniform and degree-/literature-matched controls using the same retrieval budget.
+Gene contribution. Compare chemical–disease-only models with typed gene-augmented models, a
+shuffled-gene control and degree-aware baselines. Report mapping coverage and shared-path rate separately.
+Keep each path’s two source edges and evidence IDs. Evaluate whether gene information improves held-
+out prediction and whether it yields useful explanations as different endpoints. Repeat the disease-label
+permutation and save every replicate rate before drawing enrichment conclusions.
+System evaluation. Select a reproducible set of queries and candidate records. Measure exact entity
+resolution, article-link resolution and source-passage correctness. Check PubMed/DOI and Acemap links
+independently. Evaluate representative end-to-end user tasks and report the tested version. Availability of a
+homepage is insufficient evidence of a functioning literature or prediction service.
+S7
+System scope and remaining extensions
+The system requirements can be organized into four independently verifiable outcomes (Table S5). Current
+artifacts support a broad CTD inventory, an association baseline, evidence-screening summaries and
+interface designs. They do not establish an integrated, evaluated release of all four outcomes.
+Table S5. System extension specification. These are intended outcomes, not completed features claimed by the
+manuscript.
+Requested extension
+Current basis
+Verifiable outcome
+Broader chemicals
+CTD inventory;
+SIDER-format
+files present
+Versioned imports, identity crosswalks,
+typed source records and coverage report
+Closer Acemap integration
+Literature fields and interface de-
+sign
+PMID/DOI-to-Acemap mapping; veri-
+fied article links; unresolved status re-
+tained
+Gene nodes and relations
+Shared-gene screening script and
+chart
+Typed, sourced gene paths; ablation
+against matched models and nulls
+Literature for new candi-
+dates
+Retrieval-rate summaries and ten
+case links
+Positive-class candidate export; auditable
+evidence judgments; independent valida-
+tion split
+5

@@ -1,0 +1,236 @@
+{
+  "manuscript": {
+    "pages": 12,
+    "bytes": 229770,
+    "replacement_characters": 0,
+    "unresolved_double_question_marks": 0,
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 3578,
+        "links": 1,
+        "outside_page_spans": []
+      },
+      {
+        "page": 2,
+        "chars": 3746,
+        "links": 5,
+        "outside_page_spans": []
+      },
+      {
+        "page": 3,
+        "chars": 3967,
+        "links": 2,
+        "outside_page_spans": []
+      },
+      {
+        "page": 4,
+        "chars": 3739,
+        "links": 2,
+        "outside_page_spans": []
+      },
+      {
+        "page": 5,
+        "chars": 3273,
+        "links": 3,
+        "outside_page_spans": []
+      },
+      {
+        "page": 6,
+        "chars": 2303,
+        "links": 1,
+        "outside_page_spans": []
+      },
+      {
+        "page": 7,
+        "chars": 2868,
+        "links": 2,
+        "outside_page_spans": []
+      },
+      {
+        "page": 8,
+        "chars": 3149,
+        "links": 5,
+        "outside_page_spans": []
+      },
+      {
+        "page": 9,
+        "chars": 3534,
+        "links": 3,
+        "outside_page_spans": []
+      },
+      {
+        "page": 10,
+        "chars": 4251,
+        "links": 1,
+        "outside_page_spans": []
+      },
+      {
+        "page": 11,
+        "chars": 1718,
+        "links": 1,
+        "outside_page_spans": []
+      },
+      {
+        "page": 12,
+        "chars": 2771,
+        "links": 14,
+        "outside_page_spans": []
+      }
+    ]
+  },
+  "manuscript_submission": {
+    "pages": 17,
+    "bytes": 238190,
+    "replacement_characters": 0,
+    "unresolved_double_question_marks": 0,
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 2373,
+        "links": 0,
+        "outside_page_spans": []
+      },
+      {
+        "page": 2,
+        "chars": 2940,
+        "links": 5,
+        "outside_page_spans": []
+      },
+      {
+        "page": 3,
+        "chars": 2606,
+        "links": 1,
+        "outside_page_spans": []
+      },
+      {
+        "page": 4,
+        "chars": 2675,
+        "links": 1,
+        "outside_page_spans": []
+      },
+      {
+        "page": 5,
+        "chars": 2228,
+        "links": 3,
+        "outside_page_spans": []
+      },
+      {
+        "page": 6,
+        "chars": 2593,
+        "links": 0,
+        "outside_page_spans": []
+      },
+      {
+        "page": 7,
+        "chars": 2621,
+        "links": 2,
+        "outside_page_spans": []
+      },
+      {
+        "page": 8,
+        "chars": 2031,
+        "links": 1,
+        "outside_page_spans": []
+      },
+      {
+        "page": 9,
+        "chars": 2290,
+        "links": 1,
+        "outside_page_spans": []
+      },
+      {
+        "page": 10,
+        "chars": 2309,
+        "links": 2,
+        "outside_page_spans": []
+      },
+      {
+        "page": 11,
+        "chars": 2312,
+        "links": 1,
+        "outside_page_spans": []
+      },
+      {
+        "page": 12,
+        "chars": 2652,
+        "links": 7,
+        "outside_page_spans": []
+      },
+      {
+        "page": 13,
+        "chars": 3047,
+        "links": 1,
+        "outside_page_spans": []
+      },
+      {
+        "page": 14,
+        "chars": 2812,
+        "links": 0,
+        "outside_page_spans": []
+      },
+      {
+        "page": 15,
+        "chars": 2015,
+        "links": 1,
+        "outside_page_spans": []
+      },
+      {
+        "page": 16,
+        "chars": 1037,
+        "links": 4,
+        "outside_page_spans": []
+      },
+      {
+        "page": 17,
+        "chars": 2101,
+        "links": 10,
+        "outside_page_spans": []
+      }
+    ]
+  },
+  "supplementary": {
+    "pages": 6,
+    "bytes": 129799,
+    "replacement_characters": 0,
+    "unresolved_double_question_marks": 0,
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 2972,
+        "links": 1,
+        "outside_page_spans": []
+      },
+      {
+        "page": 2,
+        "chars": 3076,
+        "links": 2,
+        "outside_page_spans": []
+      },
+      {
+        "page": 3,
+        "chars": 2867,
+        "links": 0,
+        "outside_page_spans": []
+      },
+      {
+        "page": 4,
+        "chars": 3529,
+        "links": 0,
+        "outside_page_spans": []
+      },
+      {
+        "page": 5,
+        "chars": 2677,
+        "links": 1,
+        "outside_page_spans": []
+      },
+      {
+        "page": 6,
+        "chars": 566,
+        "links": 0,
+        "outside_page_spans": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "path": "/mnt/user-ssd/zengboyi/ctd/ctd_ppt_data/ctd_ppt_data/CTD/CTD/graphsage_wrong_predictions_all.csv",
+  "bytes": 4075874,
+  "sha256": "56f8adbe89388cb2b277665e6189be433d62f8f5e38f7cd65bbbd1fb512f0efd",
+  "columns": [
+    "化合物名",
+    "疾病名",
+    "预测概率"
+  ],
+  "rows": 62042,
+  "unique_compound_names": 16171,
+  "unique_disease_names": 6193,
+  "unique_name_pairs": 61973,
+  "duplicate_name_pair_rows_beyond_first": 69,
+  "name_pairs_with_multiple_rows": 69,
+  "exact_duplicate_rows_beyond_first": 69,
+  "rows_with_missing_field_values": 0,
+  "scores": {
+    "min": 0.5000077486038208,
+    "max": 0.9964913725852966,
+    "mean": 0.7483805419215419,
+    "quantiles_linear": {
+      "0.25": 0.6190396994352341,
+      "0.5": 0.7536072432994843,
+      "0.75": 0.878049299120903,
+      "0.9": 0.9412255764007569,
+      "0.95": 0.9621209472417831,
+      "0.99": 0.9833866637945176
+    },
+    "counts_ge": {
+      "0.5": 62042,
+      "0.9": 12413,
+      "0.95": 4844,
+      "0.99": 200,
+      "0.999": 0
+    }
+  },
+  "sorted_descending": true,
+  "top10_matches_first10": false,
+  "top10_name_pairs_found_anywhere_in_all_file": 0,
+  "interpretation": "Selected misclassified records. Probability is maximum predicted-class softmax, not necessarily association probability. True/predicted labels, stable IDs, full test set, and run identity are absent; classification metrics cannot be reconstructed.",
+  "first1000": {
+    "rows": 1000,
+    "unique_compound_names": 805,
+    "unique_disease_names": 739,
+    "unique_name_pairs": 998,
+    "top_compound_name_counts": [
+      [
+        "Ozone",
+        8
+      ],
+      [
+        "bisphenol F",
+        8
+      ],
+      [
+        "decamethrin",
+        6
+      ],
+      [
+        "Tobacco Smoke Pollution",
+        6
+      ],
+      [
+        "methylmercuric chloride",
+        6
+      ],
+      [
+        "bisphenol S",
+        5
+      ],
+      [
+        "Choline",
+        5
+      ],
+      [
+        "titanium dioxide",
+        5
+      ],
+      [
+        "bromovanin",
+        5
+      ],
+      [
+        "jinfukang",
+        5
+      ],
+      [
+        "Resveratrol",
+        4
+      ],
+      [
+        "Ethinyl Estradiol",
+        4
+      ],
+      [
+        "Benzo(a)pyrene",
+        4
+      ],
+      [
+        "Manganese",
+        4
+      ],
+      [
+        "chromium hexavalent ion",
+        4
+      ],
+      [
+        "3-(carbamoylamino)-5-(3-fluorophenyl)-N-(3-piperidyl)thiophene-2-carboxamide",
+        4
+      ],
+      [
+        "Folic Acid",
+        3
+      ],
+      [
+        "ReN 1869",
+        3
+      ],
+      [
+        "abrine",
+        3
+      ],
+      [
+        "Thioacetamide",
+        3
+      ]
+    ],
+    "top_disease_name_counts": [
+      [
+        "Diabetes Mellitus, Experimental",
+        11
+      ],
+      [
+        "Autistic Disorder",
+        9
+      ],
+      [
+        "Cell Transformation, Neoplastic",
+        9
+      ],
+      [
+        "Lung Neoplasms",
+        9
+      ],
+      [
+        "Prostatic Neoplasms",
+        9
+      ],
+      [
+        "Carcinoma, Hepatocellular",
+        9
+      ],
+      [
+        "Reperfusion Injury",
+        8
+      ],
+      [
+        "Chemical and Drug Induced Liver Injury",
+        7
+      ],
+      [
+        "Neoplasm Metastasis",
+        6
+      ],
+      [
+        "Breast Neoplasms",
+        6
+      ],
+      [
+        "Heart Failure",
+        6
+      ],
+      [
+        "Carcinoma, Squamous Cell",
+        6
+      ],
+      [
+        "Liver Neoplasms, Experimental",
+        6
+      ],
+      [
+        "Diabetes Mellitus, Type 2",
+        5
+      ],
+      [
+        "Mammary Neoplasms, Experimental",
+        5
+      ],
+      [
+        "Brain Ischemia",
+        5
+      ],
+      [
+        "Nerve Degeneration",
+        4
+      ],
+      [
+        "Neoplasms",
+        4
+      ],
+      [
+        "Kidney Diseases",
+        4
+      ],
+      [
+        "Carcinoma",
+        4
+      ]
+    ],
+    "score_min": 0.9793844223022461,
+    "score_max": 0.9964913725852966,
+    "interpretation": "First 1000 confidence-ranked errors; selection includes both possible error directions because labels were not exported."
+  }
+}

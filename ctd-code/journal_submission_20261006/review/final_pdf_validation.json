@@ -1,0 +1,212 @@
+{
+  "scope": "PDF structure, extracted text, page bounds, bibliography keys and TeX logs; not experimental reproduction",
+  "bibliography": {
+    "references": 14,
+    "cited": 14,
+    "missing": [],
+    "uncited": []
+  },
+  "manuscript": {
+    "pages": 12,
+    "bytes": 229853,
+    "sha256": "f533175efc32663a2760b90a07525b20c57b264847111e054766746297673845",
+    "replacement_characters": 0,
+    "unresolved_references": 0,
+    "page_details": [
+      {
+        "page": 1,
+        "text_characters": 3578,
+        "links": 1
+      },
+      {
+        "page": 2,
+        "text_characters": 3746,
+        "links": 5
+      },
+      {
+        "page": 3,
+        "text_characters": 4021,
+        "links": 2
+      },
+      {
+        "page": 4,
+        "text_characters": 3739,
+        "links": 2
+      },
+      {
+        "page": 5,
+        "text_characters": 3273,
+        "links": 3
+      },
+      {
+        "page": 6,
+        "text_characters": 2358,
+        "links": 1
+      },
+      {
+        "page": 7,
+        "text_characters": 2865,
+        "links": 2
+      },
+      {
+        "page": 8,
+        "text_characters": 3145,
+        "links": 5
+      },
+      {
+        "page": 9,
+        "text_characters": 3534,
+        "links": 3
+      },
+      {
+        "page": 10,
+        "text_characters": 4266,
+        "links": 1
+      },
+      {
+        "page": 11,
+        "text_characters": 1720,
+        "links": 1
+      },
+      {
+        "page": 12,
+        "text_characters": 2760,
+        "links": 15
+      }
+    ],
+    "overfull_boxes": 0,
+    "underfull_boxes": 2
+  },
+  "manuscript_submission": {
+    "pages": 17,
+    "bytes": 237019,
+    "sha256": "90e885425cbe3ef4ef431a1601cfdd17655f09c99f6217d7f956e7127e1fd165",
+    "replacement_characters": 0,
+    "unresolved_references": 0,
+    "page_details": [
+      {
+        "page": 1,
+        "text_characters": 2375,
+        "links": 0
+      },
+      {
+        "page": 2,
+        "text_characters": 2940,
+        "links": 5
+      },
+      {
+        "page": 3,
+        "text_characters": 2606,
+        "links": 1
+      },
+      {
+        "page": 4,
+        "text_characters": 2675,
+        "links": 1
+      },
+      {
+        "page": 5,
+        "text_characters": 2073,
+        "links": 3
+      },
+      {
+        "page": 6,
+        "text_characters": 2806,
+        "links": 0
+      },
+      {
+        "page": 7,
+        "text_characters": 2621,
+        "links": 2
+      },
+      {
+        "page": 8,
+        "text_characters": 2086,
+        "links": 1
+      },
+      {
+        "page": 9,
+        "text_characters": 2290,
+        "links": 1
+      },
+      {
+        "page": 10,
+        "text_characters": 2306,
+        "links": 2
+      },
+      {
+        "page": 11,
+        "text_characters": 2308,
+        "links": 1
+      },
+      {
+        "page": 12,
+        "text_characters": 2652,
+        "links": 7
+      },
+      {
+        "page": 13,
+        "text_characters": 3050,
+        "links": 1
+      },
+      {
+        "page": 14,
+        "text_characters": 2824,
+        "links": 0
+      },
+      {
+        "page": 15,
+        "text_characters": 2017,
+        "links": 1
+      },
+      {
+        "page": 16,
+        "text_characters": 1237,
+        "links": 5
+      },
+      {
+        "page": 17,
+        "text_characters": 1878,
+        "links": 11
+      }
+    ],
+    "overfull_boxes": 0,
+    "underfull_boxes": 2
+  },
+  "supplementary": {
+    "pages": 5,
+    "bytes": 109325,
+    "sha256": "c49df6a280b16fbd1a7ace3b99a8a9107585737dbb11e7b0fa5b91162f6658b5",
+    "replacement_characters": 0,
+    "unresolved_references": 0,
+    "page_details": [
+      {
+        "page": 1,
+        "text_characters": 2929,
+        "links": 1
+      },
+      {
+        "page": 2,
+        "text_characters": 3118,
+        "links": 2
+      },
+      {
+        "page": 3,
+        "text_characters": 2867,
+        "links": 0
+      },
+      {
+        "page": 4,
+        "text_characters": 3529,
+        "links": 0
+      },
+      {
+        "page": 5,
+        "text_characters": 2677,
+        "links": 1
+      }
+    ],
+    "overfull_boxes": 0,
+    "underfull_boxes": 6
+  }
+}

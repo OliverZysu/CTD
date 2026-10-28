@@ -1,0 +1,26 @@
+DRAFT FOR AUTHOR COMPLETION — NOT SENT
+Target: Journal of Cheminformatics
+Article type: Research (confirm current article-type instructions before submission)
+
+Date: ____________________
+Corresponding author: ____________________
+Affiliation: ____________________
+Email: ____________________
+
+Dear Editors,
+
+Please consider our manuscript, “Graph-based exploration of chemical–disease associations with literature and gene-context evidence,” for publication in Journal of Cheminformatics.
+
+The manuscript examines how chemical–disease graph predictions can be interpreted alongside literature evidence and gene context. It brings together an environmental exposure-data pilot, retrospective literature-retrieval summaries, a shared-gene screen and an evidence-linked interface specification. The work addresses a practical chemical-informatics problem: maintaining the distinction between an association score, a source publication, a therapeutic or adverse relation, and a gene-path explanation.
+
+The current draft reports both the potential and the limits of these evidence layers. Reported literature retrieval is higher in the leading ranked sample than among uniformly paired names. The available gene screen shows no enrichment against its recorded disease-label permutation comparator. The manuscript also identifies why class-aware prediction exports and provenance-preserving relation types are necessary for scientific interpretation. It makes no claim of a new graph neural network architecture or prospectively validated causal discovery.
+
+We consider the manuscript relevant to the journal’s interest in chemical information systems, databases and data mining. Before this letter is finalized, the authors should complete the reproducible evaluation and public-data/code materials identified in the accompanying preparation notes, and revise this summary to describe the final evidence actually included in the submitted paper.
+
+Originality and concurrent-submission declaration: ____________________
+Approval of all authors: ____________________
+Competing interests: ____________________
+Data and code availability: ____________________
+
+Sincerely,
+____________________

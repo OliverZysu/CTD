@@ -1,0 +1,157 @@
+[
+  {
+    "file": "/mnt/user-ssd/zengboyi/ctd/ctd_ppt_data/ctd_ppt_data/CTD_周进展_0719.pptx",
+    "slides": [
+      {
+        "slide": 1,
+        "text": "\n\n\n污染物数据库（曾博义）\n新任务 | \n新功能 | \n新指标 | \n新调研 | √\n\n本周增量：调研了Nature子刊等非ai会议上关系预测的相关工作，统计了需要做的实验；修复了链接无法跳转的bug\n 1. 新调研的相关工作\n\n• DREAMwalk（Nat. Commun. 2023）\n   知识图谱 + 随机游走预测药物–疾病，并用体外实验验证新预测。\n   借鉴：新预测要有独立验证，不只看准确率\n\n• REDDA（Comput. Biol. Med. 2022）\n   异构图神经网络整合多种生物关系做药–病预测。\n   借鉴：配疾病案例\n\n• 网络毒理学 + 孟德尔随机化（2025）\n   「化学→基因→疾病」机制链 + 因果验证（以三氯生为例）。\n   借鉴：预测可用基因通路解释、并做因果佐证\n\n\n2. 需要补的实验\n\n机制验证\n     用已有「基因–疾病」数据，看预测的化学–疾病对能否通过某个基因连起来（化学→基因→疾病），统计有通路支撑的比例。\n\n案例检查\n    挑几个高分预测，逐条看基因通路 + 文献是否支持，讲清楚 2–3 个例子。\n下周计划：用基因数据统计 top 预测中「化学→基因→疾病」通路的支撑比例"
+      }
+    ]
+  },
+  {
+    "file": "/mnt/user-ssd/zengboyi/ctd/ctd_ppt_data/ctd_ppt_data/CTD_周进展_0809.pptx",
+    "slides": [
+      {
+        "slide": 1,
+        "text": "\n\n\n污染物数据库（曾博义）\n新任务 | \n新功能 | \n新指标 | √\n新调研 | \n\n本周增量：完成 top-1000 预测的机制链初筛；639 条可映射，128 条有共享基因（20.0%）\n下周计划：按疾病节点度分层重排，并扩展 CTD inferred 关系复核支持率\n1. 机制链初筛\n\nTop-1000：128 / 639 = 20.0% 可映射预测有共享基因\n口径：Homo sapiens 化学–基因 + CTD curated 基因–疾病；共享 ≥1 基因计为支持\n2. 代表性链路\n\n高分预测中可被基因关系连接的例子\n#24  0.995\n\nvacuolin-1\n→\n\nPIKFYVE\n→\n\nCorneal Dystrophy, Fleck\n#148  0.991\n\nUranium Compounds\n→\n\nSRY\n→\n\n46,XY SEX REVERSAL 1\n#177  0.991\n\nStrontium\n→\n\nCASR\n→\n\nHypocalciuric hypercalcemia, familial, type 1\n共享基因是机制线索，不等同因果验证；下一步先做疾病节点度校正。"
+      }
+    ]
+  },
+  {
+    "file": "/mnt/user-ssd/zengboyi/ctd/ctd_ppt_data/ctd_ppt_data/DDE组会文档20251215_环境.pptx",
+    "slides": [
+      {
+        "slide": 1,
+        "text": "—— Geology Knowledge Engine for Image, Data and Text\n\nD2 科学发现案例：\u000b环境\n\n环境\n（金梦 郑冠杰）\n\n分子网络（健平）\n污染物疾病（曾博义）\n方法生成（苏梓阳，黄哲睿）"
+      },
+      {
+        "slide": 2,
+        "text": "\n\n\n\n污染物数据库（曾博义）\n\n上周任务：增加 CTD 数据集上关系预测的baseline\n本周增量：将 GCN, MLP, GAT等方法拓展到文献中抽取到的疾病污染物数据集上\n下周计划：优化算法，增加相关方法和数据\n新任务 | \n新功能 | \n新指标 | √\n新调研 | \n对于抽取得到的疾病污染物数据集，以疾病和污染物为节点构建图，构建得到包含639种污染物和 94 种疾病的关系图\n将之前的方法适配到构建的关系图，构造正负样本进行疾病污染物关系的二分类预测\n适配了 GCN，MLP 和 GAT 等 3 种方法，计算了这三种方法在文献抽取的疾病污染物数据上的性能\nMethod | Acc | Recall | F1-Score | AUC\nGCN | 0.8342 | 0.8517 | 0.8430 | 0.9254\nMLP | 0.8542 | 0.8631 | 0.8587 | 0.9392\nGAT | 0.8474 | 0.8473 | 0.8474 | 0.9382\nNOTES: 单击此处添加文本"
+      }
+    ]
+  },
+  {
+    "file": "/mnt/user-ssd/zengboyi/ctd/ctd_ppt_data/ctd_ppt_data/DDE组会文档20260105_环境.pptx",
+    "slides": [
+      {
+        "slide": 1,
+        "text": "—— Geology Knowledge Engine for Image, Data and Text\n\nD2 科学发现案例：\u000b环境\n\n环境\n（金梦 郑冠杰）\n\n分子网络（健平）\n污染物疾病（曾博义）\n方法生成（苏梓阳，黄哲睿）"
+      },
+      {
+        "slide": 2,
+        "text": "\n\n\n\n污染物分子网络预测（周健平）\n\n本周增量：本周完成项目主页设计，并且完成需求文档撰写，并对接工程师开发系统\n新任务 | √\n新功能 | \n新指标 | \n新调研 | \n下周计划：和工程师对接系统开发与测试"
+      },
+      {
+        "slide": 3,
+        "text": "\n\n\n\n污染物数据库（曾博义）\n\n上周任务： 将GraphSAGE GNN 算法拓展到全量 CTD 数据\n本周增量：完成主页描述，确定系统原型，对接工程师开发系统\n下周计划：开发系统，整理数据和模型\n新任务 | \n新功能 | \n新指标 | √\n新调研 | \nNOTES: 单击此处添加文本"
+      },
+      {
+        "slide": 4,
+        "text": "\n\n\n\n污染物处理方法预测模块（苏梓阳）\n\n上周任务：构建Two-Stage浓度预测模型。\n本周增量：整理实验结果。\n新指标 | \n新任务 | √\n新功能 | \n新调研 | \n\u000b\n下周计划：与环境学院对接。"
+      }
+    ]
+  },
+  {
+    "file": "/mnt/user-ssd/zengboyi/ctd/ctd_ppt_data/ctd_ppt_data/DDE组会文档20260125_环境.pptx",
+    "slides": [
+      {
+        "slide": 1,
+        "text": "—— Geology Knowledge Engine for Image, Data and Text\n\nD2 科学发现案例：\u000b环境\n\n环境\n（金梦 郑冠杰）\n\n分子网络（健平）\n污染物疾病（曾博义）\n方法生成（苏梓阳，黄哲睿）"
+      },
+      {
+        "slide": 2,
+        "text": "\n\n\n\n污染物分子网络预测（周健平）\n\n本周增量：本周完成了系统logo的设计，以及对接工程师完成项目主页的开发\n新任务 | √\n新功能 | \n新指标 | \n新调研 | \n下周计划：与小组同学和工程师对接系统开发，测试子页面\nhttps://epdb.acemap.cn/ "
+      },
+      {
+        "slide": 3,
+        "text": "\n\n\n\n污染物数据库（曾博义）\n\n上周任务：解决 GAT 模型在全量 CTD 数据上显存占用过高的问题\n本周增量：搜集数据集外新发现的疾病污染物关系是否有文献证据支持\n下周计划：搜集更多新发现的疾病污染物关系是否有文献证据支持，构建系统\n新任务 | \n新功能 | \n新指标 | √\n新调研 | \nCompound | Disease | Paper title (hyperlink)\nSulfamethoxazole | Acute Generalized Exanthematous Pustulosis | Acute generalized exanthematous pustulosis due to sulfamethoxazol with positive lymphocyte transformation test (LTT)\nMethadone | Hyperglycemic Hyperosmolar Nonketotic Coma | Nonketotic hyperglycemic coma in toddlers after unintentional methadone ingestion\nFibrinolytic Agents | Vertebrobasilar Insufficiency | Long-term outcome after intravenous thrombolysis of basilar artery occlusion\nLithium | Hyperglycemic Hyperosmolar Nonketotic Coma | Hyperosmolar nonketotic coma precipitated by lithium-induced nephrogenic diabetes insipidus\nOctreotide | Pancreatic Pseudocyst | Treatment of pancreatic pseudocysts with octreotide\nRitonavir | Pancreatic Pseudocyst | Lipid lowering therapy in patients with HIV infection\nCeftazidime | Articulation Disorders | Neurotoxicity with Antimicrobials in the Elderly: A Review\nPhenytoin | Lipomyelomeningocele | Use of Antiepileptic Medications in Pregnancy in Relation to Risks of Birth Defects\nAcetazolamide | Brain Death | Extensive brain infarction involving deep structures during an acetazolamide-challenged single-photon emission computed tomography scan in a patient with moyamoya disease\nCocaine | Pneumopericardium | Cocaine-Induced Pneumopericardium: Safe for Discharge? A Case Report and Literature Review\nNOTES: 单击此处添加文本"
+      }
+    ]
+  },
+  {
+    "file": "/mnt/user-ssd/zengboyi/ctd/ctd_ppt_data/ctd_ppt_data/DDE组会文档20260202_环境.pptx",
+    "slides": [
+      {
+        "slide": 1,
+        "text": "—— Geology Knowledge Engine for Image, Data and Text\n\nD2 科学发现案例：\u000b环境\n\n环境\n（金梦 郑冠杰）\n\n分子网络（健平）\n污染物疾病（曾博义）\n方法生成（苏梓阳，黄哲睿）"
+      },
+      {
+        "slide": 2,
+        "text": "\n\n\n\n污染物分子网络预测（周健平）\n\n本周增量：本周整理和汇总了数据库网站的介绍与数据量，准备设计网站整体项目介绍页\n新任务 | √\n新功能 | \n新指标 | \n新调研 | \n下周计划：与工程师对接系统开发\n网站：https://epdb.acemap.cn/\n1️⃣分子网络预测\n数据量：376521个谱图，60235个SMILES\n网站功能：输入谱图数据文件、已知分子结构的种子节点文件、分子网络文件以及用户设定相关参数，输出未知结构谱图的预测结果\n\n2️⃣研究方法预测\n数据量：污染物11826，方法32474\n网站功能：输入污染物的分子描述符，输出该污染物对应的预测的处理方法\n\n3️⃣污染物-疾病关系预测\n数据量：3125条从文献抽取的疾病污染物关系，954万条从CTD数据库获取的化合物疾病关系\n网站功能：基于已有的关系数据，使用GNN等神经网络方法预测并揭示潜在的、新的污染物与疾病之间的关联\nAbout\n主页添加About子页面，详细介绍网站功能与数据量等信息"
+      },
+      {
+        "slide": 3,
+        "text": "\n\n\n\n污染物数据库（曾博义）\n\n本周增量：统计疾病污染物数据库数据量并写介绍，写需求文档和工程师对接\n下周计划：对接推进疾病污染物系统建设\n新任务 | \n新功能 | \n新指标 | √\n新调研 | \nCTD 数据 | 3125 条\n疾病污染物数据 | 9546982 条\nNOTES: 单击此处添加文本"
+      },
+      {
+        "slide": 4,
+        "text": "\n\n\n\n污染物处理方法预测模块（苏梓阳）\n\n本周增量：总结故事线，准备投稿计划，准备论文用图。\n新指标 | \n新任务 | √\n新功能 | \n新调研 | \n\u000b\n下周计划：与环境学院对接。"
+      }
+    ]
+  },
+  {
+    "file": "/mnt/user-ssd/zengboyi/ctd/ctd_ppt_data/ctd_ppt_data/疾病污染物.pptx",
+    "slides": [
+      {
+        "slide": 1,
+        "text": "\n\n\n\n污染物数据库（曾博义）\n数据库信息\n\n论文调研\n\n已有关系预测结果\n\n新增关系文献支持率\nNOTES: 单击此处添加文本"
+      },
+      {
+        "slide": 2,
+        "text": "\n\n\n\n污染物数据库（曾博义）\n数据库 | 数据来源 | 数据条数 | 数据字段\nCTD 数据 | 根据化合物和基因关系推断、PubMed 文献获取 | 9546982\n有直接证据的条目：108217  | 化合物、疾病、推断基因、PubMed 文献 id\n疾病污染物数据库 | 从流调文献获取，人工抽取 | 3125 | 污染物、浓度、疾病R值、疾病p值、地区、年龄、性别等字段\n数据库信息：\nMethod | GCN | MLP\nAcc | 0.96 | 0.94\nRecall | 0.88 | 0.94\nF1  | 0.74 | 0.94\n在 CTD有直接证据的 108217 条关系\n数据上，两类关系预测的结果：\nMethod | Accuracy | Recall | F1-Score\nGCN | 0.7520 | 0.7096 | 0.6462\nMLP | 0.7716 | 0.7170 | 0.7211\n有直接证据的 CTD 上，多类别关系预测结果：\n论文： \nPredicting drug–disease associations through layer attention graph convolutional network\n利用 CTD、DrugBank和MeSH 数据，进行药物疾病之间关系的预测\nMRDDA: a multi-relational graph neural network for drug–disease association prediction\n利用CTD 的药物-疾病关联、药物-蛋白质关联，预测药物-疾病关系\nIdentification of Drug-Disease Associations Using Information of Molecular Structures and Clinical Symptoms via Deep Convolutional Neural Network\n使用CTD数据库中已知的药物-疾病关联数据，发现新的药物疾病关系\nNOTES: 单击此处添加文本"
+      },
+      {
+        "slide": 3,
+        "text": "\n\n\n\n污染物数据库（曾博义）\n疾病污染物数据库\nCTD 数据\nNOTES: 单击此处添加文本"
+      },
+      {
+        "slide": 4,
+        "text": "\n\n\n\n污染物数据库（曾博义）\n从 CTD 爬取了疾病和化学品之间的关系数据库，共爬取到9546982 条关系\n参考已有工作，根据推断通路数和支撑文献数量计算推断分数，对数据集进行了进一步过滤处理，\n     推断分数大于 100 和有直接证据的数据分别有 395261 和 108217 条\n正在爬取基因和疾病数据库，目前已获取到34222 条关系，基因数量: 9111，疾病数量: 5858\n疾病化学品数据库 | 关系数 | 疾病数 | 化学品数 | 关系百分比\n总数 | 9546982 | 7284 | 17734 | 100%\n推断分数大于 5 | 6480509 | 5838 | 14829 | 67.8802%\n推断分数大于 10 | 4378110 | 1407 | 9520 | 45.8586%\n推断分数大于 25 | 2101258 | 507 | 507 | 22.0097%\n推断分数大于 50 | 1007473 | 198 |   1718 | 10.5528%\n推断分数大于 100 | 395261 | 78 | 650    | 4.1402%\n有直接证据 | 108217  | 3320 | 10622  | 1.1335%\nNOTES: 单击此处添加文本"
+      },
+      {
+        "slide": 5,
+        "text": "\n\n\n\n污染物数据库（曾博义）\n数据库信息\n\n论文调研\n\n已有关系预测结果\n\n新增关系文献支持率\nNOTES: 单击此处添加文本"
+      },
+      {
+        "slide": 6,
+        "text": "\n\n\n\n污染物数据库（曾博义）\n论文MRDDA: a multi-relational graph neural\nnetwork for drug–disease association prediction：\n通过整合药物、疾病、基因、蛋白质等实体相互作用关系，基于图神经网络构建了新的模型MRDDA，对药物-疾病关联进行预测\n包含了源自 CTD 的药物-疾病关联、药物-蛋白质关联和蛋白质-疾病关联信息\nMRDDA 模型通过一个多阶段的深度学习框架，从异构网络中学习特征并进行预测\n首先通过异构图卷积 (HeteroGCN) 学习药物和疾病的全局特征；然后基于元路径的方法 (metapath2vec)捕捉网络中超越直接邻居的、更复杂和更高阶的拓扑关联；再使用层级注意力机制 (Layer Attention)进行多层特征融合；最后使用双线性解码器解码关联预测\nNOTES: 单击此处添加文本"
+      },
+      {
+        "slide": 7,
+        "text": "\n\n\n\n污染物数据库（曾博义）\n论文Identification of Drug-Disease Associations Using Information of Molecular Structures and Clinical Symptoms via Deep Convolutional Neural Network：\n\n从CTD数据库中下载已知的药物-疾病关联数据\n特征工程：使用药物的 SMILES 字符串计算其 PubChem 分子指纹，生成一个 881 维的二元向量来描述其化学结构；从人类症状-疾病网络中提取每种疾病对应的 322 个症状术语，生成一个 322 维的向量来量化其临床表现\n针对每一个“药物-疾病”对，将 881 维的药物指纹向量和 322 维的疾病症状向量结合，构建一个 881x322 的二维矩阵，将这个矩阵输入 CNN 模型进行对比学习预测\nNOTES: 单击此处添加文本"
+      },
+      {
+        "slide": 8,
+        "text": "\n\n\n\n污染物数据库（曾博义）\n调研使用CTD 数据集进行关联预测的深度学方法，下面是一篇高影响力（cite 364），并开源了代码的论文Predicting drug–disease associations through layer attention graph convolutional network：总体思路是从 CTD、DrugBank和MeSH 数据分别构药物-疾病，药物-药物，疾病-疾病三种图，然后使用层级注意力图卷积网络 (LAGCN)进行预测；\nNOTES: 单击此处添加文本"
+      },
+      {
+        "slide": 9,
+        "text": "\n\n\n\n污染物数据库（曾博义）\n数据库信息\n\n论文调研\n\n已有关系预测结果\n\n新增关系文献支持率\nNOTES: 单击此处添加文本"
+      },
+      {
+        "slide": 10,
+        "text": "\n\n\n\n污染物数据库（曾博义）\n数据库 | 数据来源 | 数据条数 | 数据字段\nCTD 数据 | 根据化合物和基因关系推断、PubMed 文献获取 | 9546982\n有直接证据的条目：108217  | 化合物、疾病、推断基因、PubMed 文献 id\n疾病污染物数据库 | 从流调文献获取，人工抽取 | 3125 | 污染物、浓度、疾病R值、疾病p值、地区、年龄、性别等字段\n数据库信息：\nMethod | GCN | MLP\nAcc | 0.96 | 0.94\nRecall | 0.88 | 0.94\nF1  | 0.74 | 0.94\n在 CTD有直接证据的 108217 条关系\n数据上，两类关系预测的结果：\nMethod | Accuracy | Recall | F1-Score\nGCN | 0.7520 | 0.7096 | 0.6462\nMLP | 0.7716 | 0.7170 | 0.7211\n有直接证据的 CTD 上，多类别关系预测结果：\n论文： \nPredicting drug–disease associations through layer attention graph convolutional network\n利用 CTD、DrugBank和MeSH 数据，进行药物疾病之间关系的预测\nMRDDA: a multi-relational graph neural network for drug–disease association prediction\n利用CTD 的药物-疾病关联、药物-蛋白质关联，预测药物-疾病关系\nIdentification of Drug-Disease Associations Using Information of Molecular Structures and Clinical Symptoms via Deep Convolutional Neural Network\n使用CTD数据库中已知的药物-疾病关联数据，发现新的药物疾病关系\nNOTES: 单击此处添加文本"
+      },
+      {
+        "slide": 11,
+        "text": "\n\n\n\n污染物数据库（曾博义）\n数据库信息\n\n论文调研\n\n已有关系预测结果\n\n新增关系文献支持率\nNOTES: 单击此处添加文本"
+      },
+      {
+        "slide": 12,
+        "text": "\n\n\n\n污染物数据库（曾博义）\n新任务 | \n新功能 | \n新指标 | √\n新调研 | \nMethod | GCN | MLP\nAcc | 0.96 | 0.94\nRecall | 0.88 | 0.94\nF1  | 0.74 | 0.94\n在 CTD有直接证据的 108217 条关系\n数据上，两类关系预测的结果：\nMethod | Accuracy | Recall | F1-Score\nGCN | 0.7520 | 0.7096 | 0.6462\nMLP | 0.7716 | 0.7170 | 0.7211\n有直接证据的 CTD 上，多类别关系预测结果：\nNOTES: 单击此处添加文本"
+      },
+      {
+        "slide": 13,
+        "text": "\n污染物数据库（曾博义）\n\n本周增量：探究预测置信度与文献支持率的关系。对按预测概率降序排列的三元组，每隔 1 万条采样 100 条统计文献支持率，排名前 100 条（预测概率≈0.99）支持率显著偏高（38%），rank 1 万之后稳定在约 16%。\n下周计划：扩大每窗口样本量以验证统计显著性\n新任务 | \n新功能 | \n新指标 | \n新调研 | √"
+      },
+      {
+        "slide": 14,
+        "text": "\n污染物数据库（曾博义）\n\n本周增量：将文献验证规模从每窗口 100 扩大到 1000（共核验 7000 条预测）。结果显示预测置信度越高越易找到支撑文献——前 6 个窗口支持率从 30.4% 单调降至 14.4%（Spearman ρ=1.00），仅最低置信度窗口小幅回升至 17.8%。\n下周计划：分析最后一个窗口支撑率提升的原因\n新任务 | \n新功能 | \n新指标 | \n新调研 | √"
+      },
+      {
+        "slide": 15,
+        "text": "\n污染物数据库（曾博义）\n\n本周增量：构建模型无关的随机连边 baseline——从 CSV 的 16171 个化合物 × 6193 个疾病中随机配对 1000 条，用相同方式让大模型检索文献。结果:随机对支持率 7.2%,远低于 GraphSAGE top-1000 的 30.4%——模型富集度约 ×4.2,证明排序确实带有可被文献验证的真实信号。\n下周计划:细粒度分析每条已有支撑的证据\n新任务 | \n新功能 | \n新指标 | √\n新调研 | "
+      }
+    ]
+  }
+]

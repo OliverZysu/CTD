@@ -1,0 +1,49 @@
+# CTD_周进展_0809.pptx
+
+## Slide 1
+
+
+
+污染物数据库（曾博义）
+新任务 | 
+新功能 | 
+新指标 | √
+新调研 | 
+
+本周增量：完成 top-1000 预测的机制链初筛；639 条可映射，128 条有共享基因（20.0%）
+下周计划：按疾病节点度分层重排，并扩展 CTD inferred 关系复核支持率
+1. 机制链初筛
+
+Top-1000：128 / 639 = 20.0% 可映射预测有共享基因
+口径：Homo sapiens 化学–基因 + CTD curated 基因–疾病；共享 ≥1 基因计为支持
+2. 代表性链路
+
+高分预测中可被基因关系连接的例子
+#24  0.995
+
+vacuolin-1
+→
+
+PIKFYVE
+→
+
+Corneal Dystrophy, Fleck
+#148  0.991
+
+Uranium Compounds
+→
+
+SRY
+→
+
+46,XY SEX REVERSAL 1
+#177  0.991
+
+Strontium
+→
+
+CASR
+→
+
+Hypocalciuric hypercalcemia, familial, type 1
+共享基因是机制线索，不等同因果验证；下一步先做疾病节点度校正。

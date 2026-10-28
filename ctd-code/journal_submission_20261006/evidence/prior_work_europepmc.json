@@ -1,0 +1,659 @@
+[
+  {
+    "query": "DOI:10.1186/s12967-025-06783-x",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&resultType=core&query=DOI%3A10.1186/s12967-025-06783-x",
+    "results": [
+      {
+        "id": "40629423",
+        "source": "MED",
+        "pmid": "40629423",
+        "pmcid": "PMC12235901",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12235901"
+          ]
+        },
+        "doi": "10.1186/s12967-025-06783-x",
+        "title": "MRDDA: a multi-relational graph neural network for drug-disease association prediction.",
+        "authorString": "Chen C, Zhou Y, Li Y, Xu J, Li D, Wang L.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Chen C",
+              "lastName": "Chen",
+              "firstName": "Congzhou",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Information Science and Technology, Beijing University of Chemical Technology, Beijing, 100029, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhou Y",
+              "lastName": "Zhou",
+              "firstName": "Yaozheng",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Information Science and Technology, Beijing University of Chemical Technology, Beijing, 100029, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li Y",
+              "lastName": "Li",
+              "firstName": "Yinghong",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Information Science and Technology, Beijing University of Chemical Technology, Beijing, 100029, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xu J",
+              "lastName": "Xu",
+              "firstName": "Jin",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Computer Science, Peking University, Beijing, 100871, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li D",
+              "lastName": "Li",
+              "firstName": "Demin",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "the National Clinical Research Center for Respiratory Diseases, China-Japan Friendship Hospital, Beijing, 100029, China. deminli2008@sina.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang L",
+              "lastName": "Wang",
+              "firstName": "Lingfeng",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3707-0267"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Information Science and Technology, Beijing University of Chemical Technology, Beijing, 100029, China. lfwang@mail.buct.edu.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3707-0267"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "23",
+          "journalIssueId": 3969827,
+          "dateOfPublication": "2025 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "J Transl Med",
+            "title": "Journal of translational medicine",
+            "essn": "1479-5876",
+            "issn": "1479-5876",
+            "isoabbreviation": "J Transl Med",
+            "nlmid": "101190741"
+          },
+          "printPublicationDate": "2025-07-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "753",
+        "abstractText": "<h4>Background</h4>Drug repositioning offers a promising avenue for accelerating drug development and reducing costs. Recently, computational repositioning approaches have gained attraction for identifying potential drug-disease associations (DDAs). Biological entities such as drugs, genes, proteins, RNA, and diseases interact within a complex network. How to adequately extract the intrinsic relationships among them and accurately predict the drug-disease associations remains a challenge.<h4>Methods</h4>In this study, we introduce MRDDA, a novel graph neural network model that utilizes multiple relations, for drug repositioning. First, we design a hybrid graph convolutional framework to capture both local and global representations of drugs and diseases. Subsequently, a meta-path-based approach is employed to capture high-order topological representations from these entities. Finally, we present a layer-wise attention mechanism to integrate embeddings from various layers.<h4>Results</h4>The MRDDA model demonstrated superior performance in predicting drug-disease associations compared to existing methods, achieving higher results during the 10-fold cross-validation on three benchmark datasets. Notably, in our case studies focusing on Alzheimer's disease and breast cancer, MRDDA effectively identified several promising drug candidates that were previously unrecognized for these conditions. Additionally, molecular docking experiments reinforced our results by confirming the binding affinities and interactions between selected drugs and their target diseases, suggesting a solid basis for further experimental studies.<h4>Conclusion</h4>MRDDA offers an innovative framework for drug repositioning by effectively modeling and predicting drug-disease associations through advanced graph neural network techniques. The model's ability to integrate multi-relational data with greater accuracy paves the way for more efficient identification of potential therapeutic uses for existing drugs, ultimately contributing to the acceleration of drug development and reduced costs in the pharmaceutical industry.",
+        "affiliation": "College of Information Science and Technology, Beijing University of Chemical Technology, Beijing, 100029, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Fundamental Research Funds for the Central Universities",
+              "grantId": "buctrc202403",
+              "orderIn": 0
+            },
+            {
+              "agency": "National High Level Hospital Clinical Research Funding",
+              "grantId": "2023-NHLHCRF-YYPPLC-TJ-01",
+              "orderIn": 0
+            },
+            {
+              "agency": "Fundamental Research Funds for the Central Universities",
+              "grantId": "buctrc202221",
+              "orderIn": 0
+            },
+            {
+              "agency": "Natural Science Foundation of Beijing Municipality",
+              "grantId": "4252021",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "62376017",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Disease"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Drug Repositioning"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Neural Networks, Computer"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Graph Neural Networks"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Drug Repositioning",
+            "Graph Neural Network",
+            "Drug–disease Association",
+            "Multiple Relations"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.1186/s12967-025-06783-x"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1186/s12967-025-06783-x"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12235901"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12235901?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 6,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2025-07-09",
+        "dateOfCreation": "2025-07-08",
+        "dateOfRevision": "2026-08-07",
+        "electronicPublicationDate": "2025-07-08",
+        "firstPublicationDate": "2025-07-08",
+        "firstIndexDate": "2025-07-09",
+        "fullTextReceivedDate": "2025-12-02",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  {
+    "query": "DOI:10.1093/bib/bbaa243",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&resultType=core&query=DOI%3A10.1093/bib/bbaa243",
+    "results": [
+      {
+        "id": "33078832",
+        "source": "MED",
+        "pmid": "33078832",
+        "doi": "10.1093/bib/bbaa243",
+        "title": "Predicting drug-disease associations through layer attention graph convolutional network.",
+        "authorString": "Yu Z, Huang F, Zhao X, Xiao W, Zhang W.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Yu Z",
+              "lastName": "Yu",
+              "firstName": "Zhouxin",
+              "initials": "Z",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3603-4459"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Informatics, Huazhong Agricultural University."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Huang F",
+              "lastName": "Huang",
+              "firstName": "Feng",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Informatics, Huazhong Agricultural University."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhao X",
+              "lastName": "Zhao",
+              "firstName": "Xiaohan",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Informatics, Huazhong Agricultural University."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xiao W",
+              "lastName": "Xiao",
+              "firstName": "Wenjie",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "University of Washington."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang W",
+              "lastName": "Zhang",
+              "firstName": "Wen",
+              "initials": "W",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5221-2628"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Informatics, Huazhong Agricultural University."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5221-2628"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3603-4459"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "22",
+          "journalIssueId": 3206810,
+          "dateOfPublication": "2021 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Brief Bioinform",
+            "title": "Briefings in bioinformatics",
+            "essn": "1477-4054",
+            "issn": "1467-5463",
+            "isoabbreviation": "Brief Bioinform",
+            "nlmid": "100912837"
+          },
+          "printPublicationDate": "2021-07-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "bbaa243",
+        "abstractText": "<h4>Background</h4>Determining drug-disease associations is an integral part in the process of drug development. However, the identification of drug-disease associations through wet experiments is costly and inefficient. Hence, the development of efficient and high-accuracy computational methods for predicting drug-disease associations is of great significance.<h4>Results</h4>In this paper, we propose a novel computational method named as layer attention graph convolutional network (LAGCN) for the drug-disease association prediction. Specifically, LAGCN first integrates the known drug-disease associations, drug-drug similarities and disease-disease similarities into a heterogeneous network, and applies the graph convolution operation to the network to learn the embeddings of drugs and diseases. Second, LAGCN combines the embeddings from multiple graph convolution layers using an attention mechanism. Third, the unobserved drug-disease associations are scored based on the integrated embeddings. Evaluated by 5-fold cross-validations, LAGCN achieves an area under the precision-recall curve of 0.3168 and an area under the receiver-operating characteristic curve of 0.8750, which are better than the results of existing state-of-the-art prediction methods and baseline methods. The case study shows that LAGCN can discover novel associations that are not curated in our dataset.<h4>Conclusion</h4>LAGCN is a useful tool for predicting drug-disease associations. This study reveals that embeddings from different convolution layers can reflect the proximities of different orders, and combining the embeddings by the attention mechanism can improve the prediction performances.",
+        "affiliation": "College of Informatics, Huazhong Agricultural University.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Key Research and Development Program",
+              "grantId": "2018YFC0407904",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "62072206",
+              "orderIn": 0
+            },
+            {
+              "agency": "Huazhong Agricultural University Scientific &amp; Technological Self-innovation Foundation",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "61572368",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "61772381",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pharmaceutical Preparations",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Computational Biology"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Pharmacokinetics"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Models, Chemical"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Databases, Factual"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Neural Networks, Computer"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Disease",
+            "Drug",
+            "Graph Convolutional Network",
+            "Drug–disease Association Prediction",
+            "Layer Attention"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Pharmaceutical Preparations",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/bib/bbaa243"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 247,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "N",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2021-11-18",
+        "dateOfCreation": "2020-10-20",
+        "dateOfRevision": "2021-11-18",
+        "firstPublicationDate": "2021-07-01",
+        "firstIndexDate": "2020-10-21",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  {
+    "query": "DOI:10.1093/nar/gkae1185",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&resultType=core&query=DOI%3A10.1093/nar/gkae1185",
+    "results": [
+      {
+        "id": "39574404",
+        "source": "MED",
+        "pmid": "39574404",
+        "pmcid": "PMC11701620",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11701620"
+          ]
+        },
+        "doi": "10.1093/nar/gkae1185",
+        "title": "Correction to 'Comparative Toxicogenomics Database's 20th anniversary: update 2025'.",
+        "journalInfo": {
+          "issue": "D1",
+          "volume": "53",
+          "journalIssueId": 3884742,
+          "dateOfPublication": "2025 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Nucleic Acids Res",
+            "title": "Nucleic acids research",
+            "essn": "1362-4962",
+            "issn": "0305-1048",
+            "nlmid": "0411011",
+            "isoabbreviation": "Nucleic Acids Res"
+          },
+          "printPublicationDate": "2025-01-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "D1724",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Published Erratum",
+            "correction"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/nar/gkae1185"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11701620"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11701620?pdf=render"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "39385618",
+              "reference": "Nucleic Acids Res. 2025 Jan 6;53(D1):D1328-D1334. doi: 10.1093/nar/gkae883",
+              "type": "Erratum for",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 1,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "N",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-11-22",
+        "dateOfRevision": "2025-01-16",
+        "firstPublicationDate": "2025-01-01",
+        "firstIndexDate": "2024-11-22",
+        "fullTextReceivedDate": "2025-11-28",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+]

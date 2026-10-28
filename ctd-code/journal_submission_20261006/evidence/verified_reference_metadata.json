@@ -1,0 +1,1202 @@
+{
+  "retrieved_at": "2026-10-06T02:10:35.340666+00:00",
+  "records": [
+    {
+      "id": "ctd2025",
+      "verification_url": "https://api.crossref.org/works/10.1093%2Fnar%2Fgkae883",
+      "metadata": {
+        "issue": "D1",
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              6
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>For 20 years, the Comparative Toxicogenomics Database (CTD; https://ctdbase.org) has provided high-quality, literature-based curated content describing how environmental chemicals affect human health. Today, CTD includes over 94 million toxicogenomic connections relating chemicals, genes/proteins, phenotypes, anatomical terms, diseases, comparative species, pathways and exposures. In this 20th year anniversary update, we reflect on CTD’s remarkable growth and provide an overview of the increased data content and new features, including enhancements to the curation workflow (e.g. new exposure curation tool and expanded use of natural language processing), added functionality (e.g. improvements to CTD Tetramers and Pathway View tools) and significant upgrades to software and infrastructure. Linking lab-based core curation with real-world human exposure curation via the use of controlled vocabularies facilitates analysis of content across the entire environmental health continuum, from molecular toxicological mechanisms to the population level, and vice versa. The ‘prototype database’ originally described in 2004 has evolved into a premier, sophisticated, highly cited and well-engineered knowledgebase and discoverybase that is utilized by scientists worldwide to design testable hypotheses about environmental health.</jats:p>",
+        "DOI": "10.1093/nar/gkae883",
+        "page": "D1328-D1334",
+        "title": [
+          "Comparative Toxicogenomics Database’s 20th anniversary: update 2025"
+        ],
+        "volume": "53",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-5741-7128",
+            "authenticated-orcid": false,
+            "given": "Allan Peter",
+            "family": "Davis",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Biological Sciences, 3510 Thomas Hall, 112 Derieux Place, North Carolina State University , Raleigh , NC 27695,",
+                "place": [
+                  "USA"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Thomas C",
+            "family": "Wiegers",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Biological Sciences, 3510 Thomas Hall, 112 Derieux Place, North Carolina State University , Raleigh , NC 27695,",
+                "place": [
+                  "USA"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Daniela",
+            "family": "Sciaky",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Biological Sciences, 3510 Thomas Hall, 112 Derieux Place, North Carolina State University , Raleigh , NC 27695,",
+                "place": [
+                  "USA"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Fern",
+            "family": "Barkalow",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Biological Sciences, 3510 Thomas Hall, 112 Derieux Place, North Carolina State University , Raleigh , NC 27695,",
+                "place": [
+                  "USA"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Melissa",
+            "family": "Strong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Biological Sciences, 3510 Thomas Hall, 112 Derieux Place, North Carolina State University , Raleigh , NC 27695,",
+                "place": [
+                  "USA"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Brent",
+            "family": "Wyatt",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Biological Sciences, 3510 Thomas Hall, 112 Derieux Place, North Carolina State University , Raleigh , NC 27695,",
+                "place": [
+                  "USA"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jolene",
+            "family": "Wiegers",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Biological Sciences, 3510 Thomas Hall, 112 Derieux Place, North Carolina State University , Raleigh , NC 27695,",
+                "place": [
+                  "USA"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Roy",
+            "family": "McMorran",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Biological Sciences, 3510 Thomas Hall, 112 Derieux Place, North Carolina State University , Raleigh , NC 27695,",
+                "place": [
+                  "USA"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sakib",
+            "family": "Abrar",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Biological Sciences, 3510 Thomas Hall, 112 Derieux Place, North Carolina State University , Raleigh , NC 27695,",
+                "place": [
+                  "USA"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Carolyn J",
+            "family": "Mattingly",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Biological Sciences, 3510 Thomas Hall, 112 Derieux Place, North Carolina State University , Raleigh , NC 27695,",
+                "place": [
+                  "USA"
+                ]
+              },
+              {
+                "name": "Center for Human Health and the Environment, 850 Main Campus Drive, North Carolina State University , Raleigh , NC 27695, ",
+                "place": [
+                  "USA"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Nucleic Acids Research"
+        ],
+        "link": [
+          {
+            "URL": "https://academic.oup.com/nar/article-pdf/53/D1/D1328/60785341/gkae883.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "https://academic.oup.com/nar/article-pdf/53/D1/D1328/60785341/gkae883.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "subtitle": [],
+        "URL": "https://doi.org/10.1093/nar/gkae883",
+        "relation": {},
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              10
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "ctd2023",
+      "verification_url": "https://api.crossref.org/works/10.1093%2Fnar%2Fgkac833",
+      "metadata": {
+        "issue": "D1",
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              6
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>The Comparative Toxicogenomics Database (CTD; http://ctdbase.org/) harmonizes cross-species heterogeneous data for chemical exposures and their biological repercussions by manually curating and interrelating chemical, gene, phenotype, anatomy, disease, taxa, and exposure content from the published literature. This curated information is integrated to generate inferences, providing potential molecular mediators to develop testable hypotheses and fill in knowledge gaps for environmental health. This dual nature, acting as both a knowledgebase and a discoverybase, makes CTD a unique resource for the scientific community. Here, we report a 20% increase in overall CTD content for 17 100 chemicals, 54 300 genes, 6100 phenotypes, 7270 diseases and 202 000 exposure statements. We also present CTD Tetramers, a novel tool that computationally generates four-unit information blocks connecting a chemical, gene, phenotype, and disease to construct potential molecular mechanistic pathways. Finally, we integrate terms for human biological media used in the CTD Exposure module to corresponding CTD Anatomy pages, allowing users to survey the chemical profiles for any tissue-of-interest and see how these environmental biomarkers are related to phenotypes for any anatomical site. These, and other webpage visual enhancements, continue to promote CTD as a practical, user-friendly, and innovative resource for finding information and generating testable hypotheses about environmental health.</jats:p>",
+        "DOI": "10.1093/nar/gkac833",
+        "page": "D1257-D1262",
+        "title": [
+          "Comparative Toxicogenomics Database (CTD): update 2023"
+        ],
+        "volume": "51",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-5741-7128",
+            "authenticated-orcid": false,
+            "given": "Allan Peter",
+            "family": "Davis",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Biological Sciences, North Carolina State University , Raleigh , NC  27695, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Thomas C",
+            "family": "Wiegers",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Biological Sciences, North Carolina State University , Raleigh , NC  27695, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Robin J",
+            "family": "Johnson",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Biological Sciences, North Carolina State University , Raleigh , NC  27695, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Daniela",
+            "family": "Sciaky",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Biological Sciences, North Carolina State University , Raleigh , NC  27695, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jolene",
+            "family": "Wiegers",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Biological Sciences, North Carolina State University , Raleigh , NC  27695, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Carolyn J",
+            "family": "Mattingly",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Biological Sciences, North Carolina State University , Raleigh , NC  27695, USA"
+              },
+              {
+                "name": "Center for Human Health and the Environment, North Carolina State University , Raleigh , NC  27695, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Nucleic Acids Research"
+        ],
+        "link": [
+          {
+            "URL": "https://academic.oup.com/nar/article-pdf/51/D1/D1257/48441054/gkac833.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "https://academic.oup.com/nar/article-pdf/51/D1/D1257/48441054/gkac833.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "subtitle": [],
+        "URL": "https://doi.org/10.1093/nar/gkac833",
+        "relation": {},
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              9,
+              28
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "sider2016",
+      "verification_url": "https://api.crossref.org/works/10.1093%2Fnar%2Fgkv1075",
+      "metadata": {
+        "issue": "D1",
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              1,
+              4
+            ]
+          ]
+        },
+        "DOI": "10.1093/nar/gkv1075",
+        "page": "D1075-D1079",
+        "title": [
+          "The SIDER database of drugs and side effects"
+        ],
+        "volume": "44",
+        "author": [
+          {
+            "given": "Michael",
+            "family": "Kuhn",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3560-4288",
+            "authenticated-orcid": false,
+            "given": "Ivica",
+            "family": "Letunic",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Lars Juhl",
+            "family": "Jensen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Peer",
+            "family": "Bork",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Nucleic Acids Research"
+        ],
+        "link": [
+          {
+            "URL": "http://academic.oup.com/nar/article-pdf/44/D1/D1075/16661270/gkv1075.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "subtitle": [],
+        "URL": "https://doi.org/10.1093/nar/gkv1075",
+        "relation": {},
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              10,
+              19
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "lightgcn2020",
+      "verification_url": "https://api.crossref.org/works/10.1145%2F3397271.3401063",
+      "metadata": {
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              7,
+              25
+            ]
+          ]
+        },
+        "DOI": "10.1145/3397271.3401063",
+        "page": "639-648",
+        "title": [
+          "LightGCN"
+        ],
+        "author": [
+          {
+            "given": "Xiangnan",
+            "family": "He",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of Science and Technology of China, HeFei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Kuan",
+            "family": "Deng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Science and Technology of China, HeFei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xiang",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National University of Singapore, Singapore, Singapore"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yan",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beijing Kuaishou Technology Co., Ltd., BeiJing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "YongDong",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Science and Technology of China, HeFei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Meng",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Hefei University of Technology, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3397271.3401063",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3397271.3401063",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "subtitle": [
+          "Simplifying and Powering Graph Convolution Network for Recommendation"
+        ],
+        "URL": "https://doi.org/10.1145/3397271.3401063",
+        "relation": {},
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              7,
+              25
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "node2vec2016",
+      "verification_url": "https://api.crossref.org/works/10.1145%2F2939672.2939754",
+      "metadata": {
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              8,
+              13
+            ]
+          ]
+        },
+        "DOI": "10.1145/2939672.2939754",
+        "page": "855-864",
+        "title": [
+          "node2vec"
+        ],
+        "author": [
+          {
+            "given": "Aditya",
+            "family": "Grover",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Stanford University, Stanford, CA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jure",
+            "family": "Leskovec",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Stanford University, Stanford, CA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/2939672.2939754",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/2939672.2939754",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "subtitle": [
+          "Scalable Feature Learning for Networks"
+        ],
+        "URL": "https://doi.org/10.1145/2939672.2939754",
+        "relation": {},
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              8,
+              13
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "acemap2016",
+      "verification_url": "https://api.crossref.org/works/10.1145%2F2872518.2890514",
+      "metadata": {
+        "published-print": {
+          "date-parts": [
+            [
+              2016
+            ]
+          ]
+        },
+        "DOI": "10.1145/2872518.2890514",
+        "page": "437-442",
+        "title": [
+          "AceMap"
+        ],
+        "author": [
+          {
+            "given": "Zhaowei",
+            "family": "Tan",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Changfeng",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yuning",
+            "family": "Mao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yunqi",
+            "family": "Guo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jiaming",
+            "family": "Shen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Xinbing",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Proceedings of the 25th International Conference Companion on World Wide Web - WWW '16 Companion"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/2872518.2890514",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://dl.acm.org/ft_gateway.cfm?id=2890514&ftid=1707773&dwn=1",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "subtitle": [
+          "A Novel Approach towards Displaying Relationship among Academic Literatures"
+        ],
+        "URL": "https://doi.org/10.1145/2872518.2890514",
+        "relation": {},
+        "published": {
+          "date-parts": [
+            [
+              2016
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "lagcn2021",
+      "verification_url": "https://api.crossref.org/works/10.1093%2Fbib%2Fbbaa243",
+      "metadata": {
+        "issue": "4",
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              7,
+              20
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Background: Determining drug–disease associations is an integral part in the process of drug development. However, the identification of drug–disease associations through wet experiments is costly and inefficient. Hence, the development of efficient and high-accuracy computational methods for predicting drug–disease associations is of great significance.</jats:p>\n                  <jats:p>Results: In this paper, we propose a novel computational method named as layer attention graph convolutional network (LAGCN) for the drug–disease association prediction. Specifically, LAGCN first integrates the known drug–disease associations, drug–drug similarities and disease–disease similarities into a heterogeneous network, and applies the graph convolution operation to the network to learn the embeddings of drugs and diseases. Second, LAGCN combines the embeddings from multiple graph convolution layers using an attention mechanism. Third, the unobserved drug–disease associations are scored based on the integrated embeddings. Evaluated by 5-fold cross-validations, LAGCN achieves an area under the precision–recall curve of 0.3168 and an area under the receiver–operating characteristic curve of 0.8750, which are better than the results of existing state-of-the-art prediction methods and baseline methods. The case study shows that LAGCN can discover novel associations that are not curated in our dataset.</jats:p>\n                  <jats:p>Conclusion: LAGCN is a useful tool for predicting drug–disease associations. This study reveals that embeddings from different convolution layers can reflect the proximities of different orders, and combining the embeddings by the attention mechanism can improve the prediction performances.</jats:p>",
+        "DOI": "10.1093/bib/bbaa243",
+        "title": [
+          "Predicting drug–disease associations through layer attention graph convolutional network"
+        ],
+        "volume": "22",
+        "author": [
+          {
+            "given": "Zhouxin",
+            "family": "Yu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "College of Informatics, Huazhong Agricultural University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Feng",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Informatics, Huazhong Agricultural University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xiaohan",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Informatics, Huazhong Agricultural University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wenjie",
+            "family": "Xiao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Washington"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wen",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Informatics, Huazhong Agricultural University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Briefings in Bioinformatics"
+        ],
+        "link": [
+          {
+            "URL": "http://academic.oup.com/bib/article-pdf/22/4/bbaa243/39135298/bbaa243.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://academic.oup.com/bib/article-pdf/22/4/bbaa243/39135298/bbaa243.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "subtitle": [],
+        "URL": "https://doi.org/10.1093/bib/bbaa243",
+        "relation": {},
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              10,
+              20
+            ]
+          ]
+        },
+        "article-number": "bbaa243"
+      }
+    },
+    {
+      "id": "mrdda2025",
+      "verification_url": "https://api.crossref.org/works/10.1186%2Fs12967-025-06783-x",
+      "metadata": {
+        "issue": "1",
+        "DOI": "10.1186/s12967-025-06783-x",
+        "title": [
+          "MRDDA: a multi-relational graph neural network for drug–disease association prediction"
+        ],
+        "volume": "23",
+        "author": [
+          {
+            "given": "Congzhou",
+            "family": "Chen",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yaozheng",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yinghong",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jin",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Demin",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3707-0267",
+            "authenticated-orcid": false,
+            "given": "Lingfeng",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Journal of Translational Medicine"
+        ],
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1186/s12967-025-06783-x.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1186/s12967-025-06783-x/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1186/s12967-025-06783-x.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "subtitle": [],
+        "URL": "https://doi.org/10.1186/s12967-025-06783-x",
+        "relation": {},
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              8
+            ]
+          ]
+        },
+        "article-number": "753"
+      }
+    },
+    {
+      "id": "graphsage2017",
+      "verification_url": "https://arxiv.org/abs/1706.02216",
+      "metadata": {
+        "title": [
+          "Inductive Representation Learning on Large Graphs"
+        ],
+        "author": [
+          "Hamilton, William L.",
+          "Ying, Rex",
+          "Leskovec, Jure"
+        ],
+        "date": [
+          "2017/06/07"
+        ],
+        "abstract": " Abstract: Low-dimensional embeddings of nodes in large graphs have proved extremely useful in a variety of prediction tasks, from content recommendation to identifying protein functions. However, most existing approaches require that all nodes in the graph are present during training of the embeddings; these previous approaches are inherently transductive and do not naturally generalize to unseen nodes. Here we present GraphSAGE, a general, inductive framework that leverages node feature information (e.g., text attributes) to efficiently generate node embeddings for previously unseen data. Instead of training individual embeddings for each node, we learn a function that generates embeddings by sampling and aggregating features from a node's local neighborhood. Our algorithm outperforms strong baselines on three inductive node-classification benchmarks: we classify the category of unseen nodes in evolving information graphs based on citation and Reddit post data, and we show that our algorithm generalizes to completely unseen graphs using a multi-graph dataset of protein-protein interactions. "
+      }
+    },
+    {
+      "id": "gat2018",
+      "verification_url": "https://arxiv.org/abs/1710.10903",
+      "metadata": {
+        "title": [
+          "Graph Attention Networks"
+        ],
+        "author": [
+          "Veličković, Petar",
+          "Cucurull, Guillem",
+          "Casanova, Arantxa",
+          "Romero, Adriana",
+          "Liò, Pietro",
+          "Bengio, Yoshua"
+        ],
+        "date": [
+          "2017/10/30"
+        ],
+        "abstract": " Abstract: We present graph attention networks (GATs), novel neural network architectures that operate on graph-structured data, leveraging masked self-attentional layers to address the shortcomings of prior methods based on graph convolutions or their approximations. By stacking layers in which nodes are able to attend over their neighborhoods' features, we enable (implicitly) specifying different weights to different nodes in a neighborhood, without requiring any kind of costly matrix operation (such as inversion) or depending on knowing the graph structure upfront. In this way, we address several key challenges of spectral-based graph neural networks simultaneously, and make our model readily applicable to inductive as well as transductive problems. Our GAT models have achieved or matched state-of-the-art results across four established transductive and inductive graph benchmarks: the Cora, Citeseer and Pubmed citation network datasets, as well as a protein-protein interaction dataset (wherein test graphs remain unseen during training). "
+      }
+    },
+    {
+      "id": "gcn2017",
+      "verification_url": "https://arxiv.org/abs/1609.02907",
+      "metadata": {
+        "title": [
+          "Semi-Supervised Classification with Graph Convolutional Networks"
+        ],
+        "author": [
+          "Kipf, Thomas N.",
+          "Welling, Max"
+        ],
+        "date": [
+          "2016/09/09"
+        ],
+        "abstract": " Abstract: We present a scalable approach for semi-supervised learning on graph-structured data that is based on an efficient variant of convolutional neural networks which operate directly on graphs. We motivate the choice of our convolutional architecture via a localized first-order approximation of spectral graph convolutions. Our model scales linearly in the number of graph edges and learns hidden layer representations that encode both local graph structure and features of nodes. In a number of experiments on citation networks and on a knowledge graph dataset we demonstrate that our approach outperforms related methods by a significant margin. "
+      }
+    }
+  ]
+}

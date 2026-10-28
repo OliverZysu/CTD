@@ -1,0 +1,8 @@
+{
+  "observed_staging_peak_bytes": 855719,
+  "staging_parent": "/dev/shm",
+  "staging_cleanup": "TemporaryDirectory removes staging on context exit",
+  "compiler": "pdfTeX 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian)",
+  "shell_escape": false,
+  "passes_per_document": 2
+}

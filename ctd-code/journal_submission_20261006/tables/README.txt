@@ -1,0 +1,1 @@
+Reported tables transcribe source slides/charts. They are not individual predictions, judgments, or replicated experiments. prediction_export_descriptive.json contains direct counts of the retained errors-only CSV. See supplementary.pdf and evidence/source_inventory.json for provenance.

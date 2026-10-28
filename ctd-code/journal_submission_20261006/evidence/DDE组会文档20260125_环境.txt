@@ -1,0 +1,55 @@
+# DDE组会文档20260125_环境.pptx
+
+## Slide 1
+—— Geology Knowledge Engine for Image, Data and Text
+
+D2 科学发现案例：环境
+
+环境
+（金梦 郑冠杰）
+
+分子网络（健平）
+污染物疾病（曾博义）
+方法生成（苏梓阳，黄哲睿）
+
+## Slide 2
+
+
+
+
+污染物分子网络预测（周健平）
+
+本周增量：本周完成了系统logo的设计，以及对接工程师完成项目主页的开发
+新任务 | √
+新功能 | 
+新指标 | 
+新调研 | 
+下周计划：与小组同学和工程师对接系统开发，测试子页面
+https://epdb.acemap.cn/ 
+
+## Slide 3
+
+
+
+
+污染物数据库（曾博义）
+
+上周任务：解决 GAT 模型在全量 CTD 数据上显存占用过高的问题
+本周增量：搜集数据集外新发现的疾病污染物关系是否有文献证据支持
+下周计划：搜集更多新发现的疾病污染物关系是否有文献证据支持，构建系统
+新任务 | 
+新功能 | 
+新指标 | √
+新调研 | 
+Compound | Disease | Paper title (hyperlink)
+Sulfamethoxazole | Acute Generalized Exanthematous Pustulosis | Acute generalized exanthematous pustulosis due to sulfamethoxazol with positive lymphocyte transformation test (LTT)
+Methadone | Hyperglycemic Hyperosmolar Nonketotic Coma | Nonketotic hyperglycemic coma in toddlers after unintentional methadone ingestion
+Fibrinolytic Agents | Vertebrobasilar Insufficiency | Long-term outcome after intravenous thrombolysis of basilar artery occlusion
+Lithium | Hyperglycemic Hyperosmolar Nonketotic Coma | Hyperosmolar nonketotic coma precipitated by lithium-induced nephrogenic diabetes insipidus
+Octreotide | Pancreatic Pseudocyst | Treatment of pancreatic pseudocysts with octreotide
+Ritonavir | Pancreatic Pseudocyst | Lipid lowering therapy in patients with HIV infection
+Ceftazidime | Articulation Disorders | Neurotoxicity with Antimicrobials in the Elderly: A Review
+Phenytoin | Lipomyelomeningocele | Use of Antiepileptic Medications in Pregnancy in Relation to Risks of Birth Defects
+Acetazolamide | Brain Death | Extensive brain infarction involving deep structures during an acetazolamide-challenged single-photon emission computed tomography scan in a patient with moyamoya disease
+Cocaine | Pneumopericardium | Cocaine-Induced Pneumopericardium: Safe for Discharge? A Case Report and Literature Review
+NOTES: 单击此处添加文本

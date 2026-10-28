@@ -1,0 +1,1312 @@
+[
+  {
+    "query": "Predicting drug–disease associations through layer attention graph convolutional network",
+    "url": "https://api.crossref.org/works?rows=5&query.title=Predicting%20drug%E2%80%93disease%20associations%20through%20layer%20attention%20graph%20convolutional%20network",
+    "items": [
+      {
+        "issue": "4",
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              7,
+              20
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Background: Determining drug–disease associations is an integral part in the process of drug development. However, the identification of drug–disease associations through wet experiments is costly and inefficient. Hence, the development of efficient and high-accuracy computational methods for predicting drug–disease associations is of great significance.</jats:p>\n                  <jats:p>Results: In this paper, we propose a novel computational method named as layer attention graph convolutional network (LAGCN) for the drug–disease association prediction. Specifically, LAGCN first integrates the known drug–disease associations, drug–drug similarities and disease–disease similarities into a heterogeneous network, and applies the graph convolution operation to the network to learn the embeddings of drugs and diseases. Second, LAGCN combines the embeddings from multiple graph convolution layers using an attention mechanism. Third, the unobserved drug–disease associations are scored based on the integrated embeddings. Evaluated by 5-fold cross-validations, LAGCN achieves an area under the precision–recall curve of 0.3168 and an area under the receiver–operating characteristic curve of 0.8750, which are better than the results of existing state-of-the-art prediction methods and baseline methods. The case study shows that LAGCN can discover novel associations that are not curated in our dataset.</jats:p>\n                  <jats:p>Conclusion: LAGCN is a useful tool for predicting drug–disease associations. This study reveals that embeddings from different convolution layers can reflect the proximities of different orders, and combining the embeddings by the attention mechanism can improve the prediction performances.</jats:p>",
+        "DOI": "10.1093/bib/bbaa243",
+        "title": [
+          "Predicting drug–disease associations through layer attention graph convolutional network"
+        ],
+        "volume": "22",
+        "author": [
+          {
+            "given": "Zhouxin",
+            "family": "Yu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "College of Informatics, Huazhong Agricultural University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Feng",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Informatics, Huazhong Agricultural University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xiaohan",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Informatics, Huazhong Agricultural University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wenjie",
+            "family": "Xiao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Washington"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wen",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Informatics, Huazhong Agricultural University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Briefings in Bioinformatics"
+        ],
+        "URL": "https://doi.org/10.1093/bib/bbaa243",
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              10,
+              20
+            ]
+          ]
+        }
+      },
+      {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              12
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:sec>\n                <jats:title>Background</jats:title>\n                <jats:p>MiRNA is a class of non-coding single-stranded RNA molecules with a length of approximately 22 nucleotides encoded by endogenous genes, which can regulate the expression of other genes. Therefore, it is very important to predict the associations between miRNA and disease. Predecessors developed a new prediction method of drug-disease association, and it achieved good results.</jats:p>\n              </jats:sec><jats:sec>\n                <jats:title>Methods</jats:title>\n                <jats:p>In this paper, we introduced the method of LAGCN to identify potential miRNA-disease associations. First, we integrate three associations into a heterogeneous network, such as the known miRNA-disease association, miRNA-miRNA similarities and disease-disease similarities, next we apply graph convolution network to learn the embedding of miRNA and disease. We use an attention mechanism to combine embedding from multiple convolution layers. Unobserved miRNA-disease associations are scored based on integrated embedding.</jats:p>\n              </jats:sec><jats:sec>\n                <jats:title>Results</jats:title>\n                <jats:p>After fivefold cross-validations, the value of AUC is reached 0.9091, which is higher than other prediction methods and baseline methods.</jats:p>\n              </jats:sec><jats:sec>\n                <jats:title>Conclusions</jats:title>\n                <jats:p>In this paper, we introduced the method of LAGCN to identify potential miRNA-disease associations. LAGCN has achieved good performance in predicting miRNA-disease associations, and it is superior to other association prediction methods and baseline methods.</jats:p>\n              </jats:sec>",
+        "DOI": "10.1186/s12911-022-01807-8",
+        "title": [
+          "Predicting miRNA-disease associations via layer attention graph convolutional network model"
+        ],
+        "volume": "22",
+        "author": [
+          {
+            "given": "Han",
+            "family": "Han",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Rong",
+            "family": "Zhu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jin-Xing",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ling-Yun",
+            "family": "Dai",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "BMC Medical Informatics and Decision Making"
+        ],
+        "URL": "https://doi.org/10.1186/s12911-022-01807-8",
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              3,
+              19
+            ]
+          ]
+        }
+      },
+      {
+        "issue": "7",
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              8
+            ]
+          ]
+        },
+        "abstract": "<jats:sec>\n<jats:title>Background:</jats:title>\n<jats:p>In recent years, herbs have become very popular worldwide as a form of complementary\nand alternative medicine (CAM). However, there are many types of herbs and diseases,\nwhose associations are impossible to be fully revealed. Identifying new therapeutic indications of herbs,\nthat is drug repositioning, is a critical supplement for new drug development. Considering that exploring\nthe associations between herbs and diseases by wet-lab techniques is time-consuming and laborious,\nthere is an urgent need for reliable computational methods to fill this gap.</jats:p>\n</jats:sec>\n<jats:sec>\n<jats:title>:</jats:title>\n<jats:p>In this study, we first preprocessed the herbs and their indications in the TCM-Suit database, a comprehensive,\naccurate, and integrated traditional Chinese medicine database, to obtain the herb-disease association\nnetwork. We then proposed a novel model based on a graph convolution network (GCN) to infer\npotential new associations between herbs and diseases.</jats:p>\n</jats:sec>\n<jats:sec>\n<jats:title>Methods:</jats:title>\n<jats:p>In our method, the effective features of herbs and diseases were extracted through multi-layer\nGCN, then the layer attention mechanism was introduced to combine the features learned from multiple\nGCN layers, and jump connections were added to reduce the over-smoothing phenomenon caused by\nmulti-layer GCN stacking. Finally, the recovered herb-disease association network was generated by the\nbilinear decoder. We applied our model together with four other methods (including SCMFDD, BNNR,\nLRMCMDA, and DRHGCN) to predict herb-disease associations. Compared with all other methods,\nour model showed the highest area under the receiver operating characteristic curve (AUROC), the area\nunder the precision-recall curve (AUPRC), as well as the highest recall in the five-fold cross-validation.</jats:p>\n</jats:sec>\n<jats:sec>\n<jats:title>Conclusion:</jats:title>\n<jats:p>We further used our model to predict the candidate herbs for Alzheimer's disease and\nfound the compounds mediating herbs and diseases through the herb-compound-gene-disease network.\nThe relevant literature also confirmed our findings.</jats:p>\n</jats:sec>",
+        "DOI": "10.2174/1574893618666230504143647",
+        "page": "610-619",
+        "title": [
+          "Predicting Herb-disease Associations Through Graph Convolutional\nNetwork"
+        ],
+        "volume": "18",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-0164-9883",
+            "authenticated-orcid": true,
+            "given": "Xuan",
+            "family": "Hu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Electrical &amp; Information Engineering, Anhui University of Technology, Anhui, 243002, China"
+              },
+              {
+                "name": "Geneis Beijing\nCo., Ltd., Beijing, 100102, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "You",
+            "family": "Lu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Pharmacy, Emergency General Hospital, Beijing, 100028, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Geng",
+            "family": "Tian",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Geneis Beijing\nCo., Ltd., Beijing, 100102, China"
+              },
+              {
+                "name": "Qingdao Geneis Institute of Big Data Mining and Precision Medicine, Qingdao, 266000, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Pingping",
+            "family": "Bing",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Academician\nWorkstation, Changsha Medical University, Changsha, 410219, China"
+              },
+              {
+                "name": "School of Pharmacy, Changsha Medical University,\nChangsha, 410219, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Bing",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electrical &amp; Information Engineering, Anhui University of Technology, Anhui, 243002, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Binsheng",
+            "family": "He",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Academician\nWorkstation, Changsha Medical University, Changsha, 410219, China"
+              },
+              {
+                "name": "School of Pharmacy, Changsha Medical University,\nChangsha, 410219, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Current Bioinformatics"
+        ],
+        "URL": "https://doi.org/10.2174/1574893618666230504143647",
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              8
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              10,
+              28
+            ]
+          ]
+        },
+        "DOI": "10.1145/3571532.3571540",
+        "page": "59-65",
+        "title": [
+          "Predicting Microbe-Disease Associations via Multiple Layer Graph Convolutional Network and Attention Mechanism"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-0038-625X",
+            "authenticated-orcid": false,
+            "given": "Kai",
+            "family": "Shi",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "College of Information Science and Engineering, Guilin University of Technology, China and Guangxi Key Laboratory of Embedded Technology and Intelligent System, Guilin University of Technology, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6934-4504",
+            "authenticated-orcid": false,
+            "given": "Lin",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Information Science and Engineering, Guilin University of Technology, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1661-0503",
+            "authenticated-orcid": false,
+            "given": "Juehua",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The First Affiliated Hospital of Kunming Medical University, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6167-7945",
+            "authenticated-orcid": false,
+            "given": "Yi",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Information Science and Engineering, Guilin University of Technolog, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9546-5115",
+            "authenticated-orcid": false,
+            "given": "Xiaolan",
+            "family": "Xie",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Information Science and Engineering, Guilin University of Technology, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Proceedings of the 2022 11th International Conference on Bioinformatics and Biomedical Science"
+        ],
+        "URL": "https://doi.org/10.1145/3571532.3571540",
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              10,
+              28
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              11
+            ]
+          ]
+        },
+        "DOI": "10.1109/bibm47256.2019.8983191",
+        "page": "177-182",
+        "title": [
+          "Predicting Disease-related RNA Associations based on Graph Convolutional Attention Network"
+        ],
+        "author": [
+          {
+            "given": "Jinli",
+            "family": "Zhang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Beijing University of Technology,Faculty of Information Technology,Beijing,China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xiaohua",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Computing and Informatics, nDrexel University,Philadelphia,USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zongli",
+            "family": "Jiang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beijing University of Technology,Faculty of Information Technology,Beijing,China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Bo",
+            "family": "Song",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Computing and Informatics, Drexel University,Philadelphia,USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wei",
+            "family": "Quan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Computing and Informatics, Drexel University,Philadelphia,USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zheng",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Computing and Informatics, Drexel University,Philadelphia,USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "2019 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)"
+        ],
+        "URL": "https://doi.org/10.1109/bibm47256.2019.8983191",
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              11
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query": "MRDDA multi-relational graph neural network drug disease association prediction",
+    "url": "https://api.crossref.org/works?rows=5&query.title=MRDDA%20multi-relational%20graph%20neural%20network%20drug%20disease%20association%20prediction",
+    "items": [
+      {
+        "issue": "1",
+        "DOI": "10.1186/s12967-025-06783-x",
+        "title": [
+          "MRDDA: a multi-relational graph neural network for drug–disease association prediction"
+        ],
+        "volume": "23",
+        "author": [
+          {
+            "given": "Congzhou",
+            "family": "Chen",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yaozheng",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yinghong",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jin",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Demin",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3707-0267",
+            "authenticated-orcid": false,
+            "given": "Lingfeng",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Journal of Translational Medicine"
+        ],
+        "URL": "https://doi.org/10.1186/s12967-025-06783-x",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              8
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              25
+            ]
+          ]
+        },
+        "DOI": "10.1109/iccea65460.2025.11103330",
+        "page": "01-04",
+        "title": [
+          "Line Graph Neural Network for Drug-Disease Association Prediction"
+        ],
+        "author": [
+          {
+            "given": "Siyang",
+            "family": "Liu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Southeast University,School of Computer Science and Engineering, School of Biological Science &#x0026; Medical Engineering,Nanjing,China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Peng",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Southeast University,School of Computer Science and Engineering, Key Laboratory of Computer Network and Information Integration, Ministry of Education,Nanjing,China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tianwai",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Southeast University,Key Laboratory of Computer Network and Information Integration, Ministry of Education,Nanjing,China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Kun",
+            "family": "Song",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Southeast University,Key Laboratory of Computer Network and Information Integration, Ministry of Education,Nanjing,China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "2025 6th International Conference on Computer Engineering and Application (ICCEA)"
+        ],
+        "URL": "https://doi.org/10.1109/iccea65460.2025.11103330",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              25
+            ]
+          ]
+        }
+      },
+      {
+        "issue": "4",
+        "abstract": "<jats:p>Drug-drug interactions (DDIs) could lead to various unexpected adverse consequences, so-called DDI events. Predicting DDI events can reduce the potential risk of combinatorial therapy and improve the safety of medication use, and has attracted much attention in the deep learning community. Recently, graph neural network (GNN)-based models have aroused broad interest and achieved satisfactory results in the DDI event prediction. Most existing GNN-based models ignore either drug structural information or drug interactive information, but both aspects of information are important for DDI event prediction. Furthermore, accurately predicting rare DDI events is hindered by their inadequate labeled instances. In this paper, we propose a new method, Multi-Relational Contrastive learning Graph Neural Network, MRCGNN for brevity, to predict DDI events. Specifically, MRCGNN integrates the two aspects of information by deploying a GNN on the multi-relational DDI event graph attributed with the drug features extracted from drug molecular graphs. Moreover, we implement a multi-relational graph contrastive learning with a designed dual-view negative counterpart augmentation strategy, to capture implicit information about rare DDI events. Extensive experiments on two datasets show that MRCGNN outperforms the state-of-the-art methods. Besides, we observe that MRCGNN achieves satisfactory performance when predicting rare DDI events.</jats:p>",
+        "DOI": "10.1609/aaai.v37i4.25665",
+        "page": "5339-5347",
+        "title": [
+          "Multi-Relational Contrastive Learning Graph Neural Network for Drug-Drug Interaction Event Prediction"
+        ],
+        "volume": "37",
+        "author": [
+          {
+            "given": "Zhankun",
+            "family": "Xiong",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shichao",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Feng",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ziyan",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xuan",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhongfei",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wen",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Proceedings of the AAAI Conference on Artificial Intelligence"
+        ],
+        "URL": "https://doi.org/10.1609/aaai.v37i4.25665",
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              26
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              18
+            ]
+          ]
+        },
+        "DOI": "10.1109/scecs65243.2025.11065338",
+        "page": "211-216",
+        "title": [
+          "Drug-Drug Interaction Event Prediction Based on Multi-Relational Enhanced Graph Neural Network"
+        ],
+        "author": [
+          {
+            "given": "Zekun",
+            "family": "Jiang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Beijing Normal-Hong Kong Baptist University,Department of Computer Science,Zhuhai,China,519087"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yu",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beijing Normal-Hong Kong Baptist University,Department of Computer Science,Zhuhai,China,519087"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Guoquan",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beijing Normal-Hong Kong Baptist University,Department of Computer Science,Zhuhai,China,519087"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Ming",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Hunan Normal University,College of Information Science and Engineering,Changsha,China,410081"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Zitao",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Hunan Normal University,College of Information Science and Engineering,Changsha,China,410081"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Chunyan",
+            "family": "Ji",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beijing Normal-Hong Kong Baptist University,Guangdong Provincial Key Laboratory,IRADS and Department of Computer Science,Zhuhai,China,519087"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "2025 International Conference on Sensor-Cloud and Edge Computing System (SCECS)"
+        ],
+        "URL": "https://doi.org/10.1109/scecs65243.2025.11065338",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              18
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              5
+            ]
+          ]
+        },
+        "DOI": "10.1109/bibm58861.2023.10385961",
+        "page": "i-viii",
+        "title": [
+          "Hierarchical Semantic Augmentation Graph Neural Network for Drug-Disease Association Prediction"
+        ],
+        "author": [
+          {
+            "given": "Mingjing",
+            "family": "Han",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Nankai University,College of Artifcial Intelligence,Tianjin,China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Han",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nankai University,College of Artifcial Intelligence,Tianjin,China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Huan",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nankai University,College of Artifcial Intelligence,Tianjin,China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yanbin",
+            "family": "Yin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Nebraska - Lincoln,Department of Food Science and Technology,Nebraska,USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)"
+        ],
+        "URL": "https://doi.org/10.1109/bibm58861.2023.10385961",
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              5
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query": "Acemap",
+    "url": "https://api.crossref.org/works?rows=5&query.title=Acemap",
+    "items": [
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2016
+            ]
+          ]
+        },
+        "DOI": "10.1145/2872518.2890514",
+        "page": "437-442",
+        "title": [
+          "AceMap"
+        ],
+        "author": [
+          {
+            "given": "Zhaowei",
+            "family": "Tan",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Changfeng",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yuning",
+            "family": "Mao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yunqi",
+            "family": "Guo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jiaming",
+            "family": "Shen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Xinbing",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Proceedings of the 25th International Conference Companion on World Wide Web - WWW '16 Companion"
+        ],
+        "subtitle": [
+          "A Novel Approach towards Displaying Relationship among Academic Literatures"
+        ],
+        "URL": "https://doi.org/10.1145/2872518.2890514",
+        "published": {
+          "date-parts": [
+            [
+              2016
+            ]
+          ]
+        }
+      },
+      {
+        "abstract": "<jats:p>Introduction Since 2020, over ten million scholarly articles have been published annually. To put that into perspective, say all ten million articles were released on the first day of the year. To get through them all, you would have to read about 27,397 articles every single day.</jats:p>",
+        "DOI": "10.59350/pdh4d-2zf28",
+        "title": [
+          "Uncovering The Secrets Behind The Most Influential Scholarly Publications With AceMap"
+        ],
+        "author": [
+          {
+            "given": "Amanda",
+            "family": "Kau",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "URL": "https://doi.org/10.59350/pdh4d-2zf28",
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              18
+            ]
+          ]
+        }
+      },
+      {
+        "abstract": "<jats:p>Introduction Since 2020, over ten million scholarly articles have been published annually. To put that into perspective, say all ten million articles were released on the first day of the year. To get through them all, you would have to read about 27,397 articles every single day.</jats:p>",
+        "DOI": "10.59350/z50y2-shq69",
+        "title": [
+          "Uncovering The Secrets Behind The Most Influential Scholarly Publications With AceMap"
+        ],
+        "author": [
+          {
+            "given": "Amanda",
+            "family": "Kau",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "URL": "https://doi.org/10.59350/z50y2-shq69",
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              18
+            ]
+          ]
+        }
+      }
+    ]
+  }
+]

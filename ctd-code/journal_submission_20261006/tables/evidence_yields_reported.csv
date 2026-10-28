@@ -1,0 +1,6 @@
+sample,numerator,denominator,rate_percent,status
+ranked_literature,304,1000,30.4,reported
+random_literature,72,1000,7.2,reported
+gene_all,128,1000,12.8,reported
+gene_mappable,128,639,20.031298904538342,derived_from_reported_counts
+gene_permutation_mean,,1000,18.7,chart_mean_200_permutations_raw_distribution_unavailable

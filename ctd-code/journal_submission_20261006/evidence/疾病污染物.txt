@@ -1,0 +1,242 @@
+# 疾病污染物.pptx
+
+## Slide 1
+
+
+
+
+污染物数据库（曾博义）
+数据库信息
+
+论文调研
+
+已有关系预测结果
+
+新增关系文献支持率
+NOTES: 单击此处添加文本
+
+## Slide 2
+
+
+
+
+污染物数据库（曾博义）
+数据库 | 数据来源 | 数据条数 | 数据字段
+CTD 数据 | 根据化合物和基因关系推断、PubMed 文献获取 | 9546982
+有直接证据的条目：108217  | 化合物、疾病、推断基因、PubMed 文献 id
+疾病污染物数据库 | 从流调文献获取，人工抽取 | 3125 | 污染物、浓度、疾病R值、疾病p值、地区、年龄、性别等字段
+数据库信息：
+Method | GCN | MLP
+Acc | 0.96 | 0.94
+Recall | 0.88 | 0.94
+F1  | 0.74 | 0.94
+在 CTD有直接证据的 108217 条关系
+数据上，两类关系预测的结果：
+Method | Accuracy | Recall | F1-Score
+GCN | 0.7520 | 0.7096 | 0.6462
+MLP | 0.7716 | 0.7170 | 0.7211
+有直接证据的 CTD 上，多类别关系预测结果：
+论文： 
+Predicting drug–disease associations through layer attention graph convolutional network
+利用 CTD、DrugBank和MeSH 数据，进行药物疾病之间关系的预测
+MRDDA: a multi-relational graph neural network for drug–disease association prediction
+利用CTD 的药物-疾病关联、药物-蛋白质关联，预测药物-疾病关系
+Identification of Drug-Disease Associations Using Information of Molecular Structures and Clinical Symptoms via Deep Convolutional Neural Network
+使用CTD数据库中已知的药物-疾病关联数据，发现新的药物疾病关系
+NOTES: 单击此处添加文本
+
+## Slide 3
+
+
+
+
+污染物数据库（曾博义）
+疾病污染物数据库
+CTD 数据
+NOTES: 单击此处添加文本
+
+## Slide 4
+
+
+
+
+污染物数据库（曾博义）
+从 CTD 爬取了疾病和化学品之间的关系数据库，共爬取到9546982 条关系
+参考已有工作，根据推断通路数和支撑文献数量计算推断分数，对数据集进行了进一步过滤处理，
+     推断分数大于 100 和有直接证据的数据分别有 395261 和 108217 条
+正在爬取基因和疾病数据库，目前已获取到34222 条关系，基因数量: 9111，疾病数量: 5858
+疾病化学品数据库 | 关系数 | 疾病数 | 化学品数 | 关系百分比
+总数 | 9546982 | 7284 | 17734 | 100%
+推断分数大于 5 | 6480509 | 5838 | 14829 | 67.8802%
+推断分数大于 10 | 4378110 | 1407 | 9520 | 45.8586%
+推断分数大于 25 | 2101258 | 507 | 507 | 22.0097%
+推断分数大于 50 | 1007473 | 198 |   1718 | 10.5528%
+推断分数大于 100 | 395261 | 78 | 650    | 4.1402%
+有直接证据 | 108217  | 3320 | 10622  | 1.1335%
+NOTES: 单击此处添加文本
+
+## Slide 5
+
+
+
+
+污染物数据库（曾博义）
+数据库信息
+
+论文调研
+
+已有关系预测结果
+
+新增关系文献支持率
+NOTES: 单击此处添加文本
+
+## Slide 6
+
+
+
+
+污染物数据库（曾博义）
+论文MRDDA: a multi-relational graph neural
+network for drug–disease association prediction：
+通过整合药物、疾病、基因、蛋白质等实体相互作用关系，基于图神经网络构建了新的模型MRDDA，对药物-疾病关联进行预测
+包含了源自 CTD 的药物-疾病关联、药物-蛋白质关联和蛋白质-疾病关联信息
+MRDDA 模型通过一个多阶段的深度学习框架，从异构网络中学习特征并进行预测
+首先通过异构图卷积 (HeteroGCN) 学习药物和疾病的全局特征；然后基于元路径的方法 (metapath2vec)捕捉网络中超越直接邻居的、更复杂和更高阶的拓扑关联；再使用层级注意力机制 (Layer Attention)进行多层特征融合；最后使用双线性解码器解码关联预测
+NOTES: 单击此处添加文本
+
+## Slide 7
+
+
+
+
+污染物数据库（曾博义）
+论文Identification of Drug-Disease Associations Using Information of Molecular Structures and Clinical Symptoms via Deep Convolutional Neural Network：
+
+从CTD数据库中下载已知的药物-疾病关联数据
+特征工程：使用药物的 SMILES 字符串计算其 PubChem 分子指纹，生成一个 881 维的二元向量来描述其化学结构；从人类症状-疾病网络中提取每种疾病对应的 322 个症状术语，生成一个 322 维的向量来量化其临床表现
+针对每一个“药物-疾病”对，将 881 维的药物指纹向量和 322 维的疾病症状向量结合，构建一个 881x322 的二维矩阵，将这个矩阵输入 CNN 模型进行对比学习预测
+NOTES: 单击此处添加文本
+
+## Slide 8
+
+
+
+
+污染物数据库（曾博义）
+调研使用CTD 数据集进行关联预测的深度学方法，下面是一篇高影响力（cite 364），并开源了代码的论文Predicting drug–disease associations through layer attention graph convolutional network：总体思路是从 CTD、DrugBank和MeSH 数据分别构药物-疾病，药物-药物，疾病-疾病三种图，然后使用层级注意力图卷积网络 (LAGCN)进行预测；
+NOTES: 单击此处添加文本
+
+## Slide 9
+
+
+
+
+污染物数据库（曾博义）
+数据库信息
+
+论文调研
+
+已有关系预测结果
+
+新增关系文献支持率
+NOTES: 单击此处添加文本
+
+## Slide 10
+
+
+
+
+污染物数据库（曾博义）
+数据库 | 数据来源 | 数据条数 | 数据字段
+CTD 数据 | 根据化合物和基因关系推断、PubMed 文献获取 | 9546982
+有直接证据的条目：108217  | 化合物、疾病、推断基因、PubMed 文献 id
+疾病污染物数据库 | 从流调文献获取，人工抽取 | 3125 | 污染物、浓度、疾病R值、疾病p值、地区、年龄、性别等字段
+数据库信息：
+Method | GCN | MLP
+Acc | 0.96 | 0.94
+Recall | 0.88 | 0.94
+F1  | 0.74 | 0.94
+在 CTD有直接证据的 108217 条关系
+数据上，两类关系预测的结果：
+Method | Accuracy | Recall | F1-Score
+GCN | 0.7520 | 0.7096 | 0.6462
+MLP | 0.7716 | 0.7170 | 0.7211
+有直接证据的 CTD 上，多类别关系预测结果：
+论文： 
+Predicting drug–disease associations through layer attention graph convolutional network
+利用 CTD、DrugBank和MeSH 数据，进行药物疾病之间关系的预测
+MRDDA: a multi-relational graph neural network for drug–disease association prediction
+利用CTD 的药物-疾病关联、药物-蛋白质关联，预测药物-疾病关系
+Identification of Drug-Disease Associations Using Information of Molecular Structures and Clinical Symptoms via Deep Convolutional Neural Network
+使用CTD数据库中已知的药物-疾病关联数据，发现新的药物疾病关系
+NOTES: 单击此处添加文本
+
+## Slide 11
+
+
+
+
+污染物数据库（曾博义）
+数据库信息
+
+论文调研
+
+已有关系预测结果
+
+新增关系文献支持率
+NOTES: 单击此处添加文本
+
+## Slide 12
+
+
+
+
+污染物数据库（曾博义）
+新任务 | 
+新功能 | 
+新指标 | √
+新调研 | 
+Method | GCN | MLP
+Acc | 0.96 | 0.94
+Recall | 0.88 | 0.94
+F1  | 0.74 | 0.94
+在 CTD有直接证据的 108217 条关系
+数据上，两类关系预测的结果：
+Method | Accuracy | Recall | F1-Score
+GCN | 0.7520 | 0.7096 | 0.6462
+MLP | 0.7716 | 0.7170 | 0.7211
+有直接证据的 CTD 上，多类别关系预测结果：
+NOTES: 单击此处添加文本
+
+## Slide 13
+
+污染物数据库（曾博义）
+
+本周增量：探究预测置信度与文献支持率的关系。对按预测概率降序排列的三元组，每隔 1 万条采样 100 条统计文献支持率，排名前 100 条（预测概率≈0.99）支持率显著偏高（38%），rank 1 万之后稳定在约 16%。
+下周计划：扩大每窗口样本量以验证统计显著性
+新任务 | 
+新功能 | 
+新指标 | 
+新调研 | √
+
+## Slide 14
+
+污染物数据库（曾博义）
+
+本周增量：将文献验证规模从每窗口 100 扩大到 1000（共核验 7000 条预测）。结果显示预测置信度越高越易找到支撑文献——前 6 个窗口支持率从 30.4% 单调降至 14.4%（Spearman ρ=1.00），仅最低置信度窗口小幅回升至 17.8%。
+下周计划：分析最后一个窗口支撑率提升的原因
+新任务 | 
+新功能 | 
+新指标 | 
+新调研 | √
+
+## Slide 15
+
+污染物数据库（曾博义）
+
+本周增量：构建模型无关的随机连边 baseline——从 CSV 的 16171 个化合物 × 6193 个疾病中随机配对 1000 条，用相同方式让大模型检索文献。结果:随机对支持率 7.2%,远低于 GraphSAGE top-1000 的 30.4%——模型富集度约 ×4.2,证明排序确实带有可被文献验证的真实信号。
+下周计划:细粒度分析每条已有支撑的证据
+新任务 | 
+新功能 | 
+新指标 | √
+新调研 | 

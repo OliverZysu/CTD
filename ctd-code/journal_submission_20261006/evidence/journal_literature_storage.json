@@ -1,0 +1,35 @@
+{
+  "task_id": "ctd-journal-submission-20261006-journal-literature",
+  "owner": "/root/journal_literature",
+  "shared_directory": "/mnt/user-ssd/zengboyi/ctd/journal_submission_20261006/evidence",
+  "verified_mount": "JuiceFS:bj9-cloudml:user-ssd",
+  "access": "Parent directory group 12027 has traverse/write access; evidence files are group-readable/writable (0660).",
+  "planned_shared_peak_bytes": 2097152,
+  "created_evidence_bytes_excluding_this_manifest": 319492,
+  "planned_local_cache_bytes": 0,
+  "intentional_local_bulk_writes_bytes": 0,
+  "root_before": {
+    "checked_at_utc": "2026-10-06T02:06:35Z",
+    "used_gib": 82.15008163452148,
+    "available_gib": 16.081867218017578,
+    "usage_percent": 83.61537940654037
+  },
+  "root_after": {
+    "checked_at_utc": "2026-10-06T02:14:49Z",
+    "used_gib": 82.17912292480469,
+    "available_gib": 16.052825927734375,
+    "usage_percent": 83.6449387016399
+  },
+  "attribution_note": "Whole-machine usage changed during concurrent work; this is not evidence of local writes by this subtask. All authored evidence was written directly to the verified shared mount.",
+  "cleanup": "No installed environment, dataset download, local staging copy, or persistent fetch process was created. No old DSA files or other owners' artifacts were touched.",
+  "retain": [
+    "journal_and_references.md",
+    "journal_guidance_retrieval.json",
+    "verified_reference_metadata.json",
+    "prior_work_crossref_search.json",
+    "prior_work_europepmc.json",
+    "reference_additional_verification.json",
+    "verified_references.bib"
+  ],
+  "ongoing_growth_sources": []
+}

@@ -1,0 +1,100 @@
+{
+  "literature_retrieval": {
+    "ranked": {
+      "retrieved": 304,
+      "denominator": 1000,
+      "percent": 30.4
+    },
+    "random": {
+      "retrieved": 72,
+      "denominator": 1000,
+      "percent": 7.2
+    },
+    "status": "Transcribed from slide chart labels; no row-level audit."
+  },
+  "gene_paths": {
+    "all_ranked_records": {
+      "supported": 128,
+      "denominator": 1000,
+      "percent": 12.8
+    },
+    "mappable_records": {
+      "supported": 128,
+      "denominator": 639,
+      "percent": 20.0
+    },
+    "permutation_control": {
+      "reported_mean_percent": 18.7,
+      "permutations": 200
+    },
+    "status": "Reported summaries only; the raw null distribution is unavailable."
+  },
+  "ed_pilot": {
+    "GCN": {
+      "accuracy": 0.8342,
+      "recall": 0.8517,
+      "f1": 0.843,
+      "auroc": 0.9254
+    },
+    "MLP": {
+      "accuracy": 0.8542,
+      "recall": 0.8631,
+      "f1": 0.8587,
+      "auroc": 0.9392
+    },
+    "GAT": {
+      "accuracy": 0.8474,
+      "recall": 0.8473,
+      "f1": 0.8474,
+      "auroc": 0.9382
+    }
+  },
+  "literature_rank_windows": {
+    "start_ranks": [
+      1,
+      10001,
+      20001,
+      30001,
+      40001,
+      50001,
+      60001
+    ],
+    "denominator_per_window": 1000,
+    "percent": [
+      30.4,
+      19.3,
+      15.8,
+      15.5,
+      14.5,
+      14.4,
+      17.8
+    ]
+  },
+  "literature_top_1000_bins": {
+    "start_ranks": [
+      1,
+      101,
+      201,
+      301,
+      401,
+      501,
+      601,
+      701,
+      801,
+      901
+    ],
+    "denominator_per_bin": 100,
+    "percent": [
+      38,
+      34,
+      37,
+      30,
+      28,
+      33,
+      21,
+      31,
+      29,
+      23
+    ]
+  }
+}

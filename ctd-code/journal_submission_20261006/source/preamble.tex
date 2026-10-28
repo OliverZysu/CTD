@@ -1,0 +1,44 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathptmx}
+\usepackage{helvet,courier}
+\usepackage[margin=24mm,headheight=15pt]{geometry}
+\usepackage{amsmath,amssymb,graphicx,booktabs,array,longtable}
+\usepackage[table]{xcolor}
+\usepackage{microtype}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage[numbers,sort&compress]{natbib}
+\ifdefined\submissionformat
+\usepackage{setspace}
+\usepackage{lineno}
+\doublespacing
+\AtBeginDocument{\linenumbers}
+\fi
+\usepackage{hyperref}
+\input{glyphtounicode}
+\pdfgentounicode=1
+\definecolor{navy}{HTML}{183B56}
+\definecolor{teal}{HTML}{167D8D}
+\hypersetup{colorlinks=true,linkcolor=navy,citecolor=navy,urlcolor=teal,pdfauthor={},pdftitle={Graph-based exploration of chemical-disease associations}}
+\captionsetup{font=small,labelfont=bf,labelsep=period}
+\setlength{\parskip}{4pt}
+\setlength{\parindent}{1em}
+\setlength{\emergencystretch}{2em}
+\renewcommand{\topfraction}{0.95}
+\renewcommand{\bottomfraction}{0.9}
+\renewcommand{\textfraction}{0.05}
+\renewcommand{\floatpagefraction}{0.85}
+\setcounter{topnumber}{3}
+\setcounter{totalnumber}{5}
+\renewcommand{\arraystretch}{1.18}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\sffamily Chemical-disease association analysis}
+\fancyhead[R]{\small\sffamily Draft for author review}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\newcommand{\blankfield}[1]{\noindent\textbf{#1}\ \rule{0.68\linewidth}{0.3pt}\par}
+\newcommand{\sourceitem}[1]{\textsf{#1}}
+\graphicspath{{../figures/}}
